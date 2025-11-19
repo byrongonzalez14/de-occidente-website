@@ -71,15 +71,20 @@ export const Services = (): JSX.Element => {
                 Nuestro equipo comercial está listo para ayudarte a planear rutas especiales, convenios empresariales o soluciones logísticas. Escríbenos y recibirás respuesta en menos de 24 horas.
               </p>
               <a
-                href="mailto:servicios@deoccidente.com"
+                href="/contacto#encuentra-la-oficina"
                 className="inline-flex items-center justify-center rounded-full bg-white px-6 py-3 text-sm font-semibold text-[#c01e27] transition hover:bg-white/90"
               >
-                Contactar asesor
+                Contáctanos
               </a>
             </div>
 
             <div className="overflow-hidden rounded-3xl">
-              <img src="/img/photo-8.png" alt="Asesor De Occidente" className="h-full w-full object-cover" loading="lazy" />
+              <img
+                src="/img/general/deOccidente-bus-3.png"
+                alt="Bus de la cooperativa De Occidente"
+                className="h-full w-full object-cover"
+                loading="lazy"
+              />
             </div>
           </div>
         </section>

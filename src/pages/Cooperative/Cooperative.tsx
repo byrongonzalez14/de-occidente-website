@@ -5,12 +5,11 @@ import { SectionHeroBanner } from "../../components/SectionHeroBanner";
 import { TravelWithUsSection } from "../../components/TravelWithUsSection";
 import { CooperativeAboutSection } from "../../components/cooperative/CooperativeAboutSection";
 import { CooperativeMissionVisionSection } from "../../components/cooperative/CooperativeMissionVisionSection";
-import { CooperativeQuickLinks } from "../../components/cooperative/CooperativeQuickLinks";
+import { CooperativeSectionCarousel } from "../../components/cooperative/CooperativeSectionCarousel";
 import {
   cooperativeAbout,
   cooperativeHero,
   cooperativeMissionVisionValues,
-  cooperativeQuickLinks,
 } from "../../data/cooperativeOverview";
 
 export const CooperativePage = (): JSX.Element => {
@@ -35,15 +34,12 @@ export const CooperativePage = (): JSX.Element => {
       />
 
       <CooperativeMissionVisionSection
+        id="misiones-valores"
         title={cooperativeMissionVisionValues.title}
         cards={cooperativeMissionVisionValues.cards}
       />
 
-      <CooperativeQuickLinks
-        title={cooperativeQuickLinks.title}
-        description={cooperativeQuickLinks.description}
-        items={cooperativeQuickLinks.items}
-      />
+      <CooperativeSectionCarousel className="pt-8 pb-20" />
 
       <TravelWithUsSection />
 

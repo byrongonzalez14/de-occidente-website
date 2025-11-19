@@ -1,4 +1,7 @@
 import { Link } from "react-router-dom";
+import { FaFacebook, FaInstagram } from "react-icons/fa6";
+import type { ComponentType } from "react";
+import type { IconBaseProps } from "react-icons";
 
 interface ContactInfo {
   icon: string;
@@ -18,6 +21,10 @@ interface FooterColumn {
 }
 
 export const FooterSection = (): JSX.Element => {
+  const currentYear = new Date().getFullYear();
+  const InstagramIcon = FaInstagram as ComponentType<IconBaseProps>;
+  const FacebookIcon = FaFacebook as ComponentType<IconBaseProps>;
+
   const contactInfo: ContactInfo[] = [
     {
       icon: "/img/icons-8.svg",
@@ -44,6 +51,8 @@ export const FooterSection = (): JSX.Element => {
         { text: "Misión, Visión, Valores", href: "/nuestra-cooperativa#misiones-valores" },
         { text: "Actualización RTE", href: "/nuestra-cooperativa/actualizacion-rte" },
         { text: "Políticas de Calidad", href: "/nuestra-cooperativa/politicas-de-calidad" },
+        { text: "Contrato Transporte Pasajeros", href: "/nuestra-cooperativa/contrato-transporte-pasajeros" },
+        { text: "Contrato Transporte Mercancía", href: "/nuestra-cooperativa/contrato-transporte-mercancia" },
       ],
     },
     {
@@ -58,8 +67,8 @@ export const FooterSection = (): JSX.Element => {
     {
       title: "Documentos y Legal",
       links: [
-        { text: "Contrato Transporte Mercancía", href: "/docs/contrato-transporte-mercancia.pdf", isExternal: true },
-        { text: "Contrato Transporte Pasajeros", href: "/docs/contrato-transporte-pasajeros.pdf", isExternal: true },
+        { text: "Contrato Transporte Mercancía", href: "/nuestra-cooperativa/contrato-transporte-mercancia" },
+        { text: "Contrato Transporte Pasajeros", href: "/nuestra-cooperativa/contrato-transporte-pasajeros" },
         { text: "Reglamento de Equipaje", href: "/nuestra-cooperativa/reglamento-de-equipaje" },
       ],
     },
@@ -113,13 +122,25 @@ export const FooterSection = (): JSX.Element => {
         </div>
 
         <div className="flex flex-col items-center justify-between gap-4 border-t border-white/15 pt-6 text-xs uppercase tracking-[0.24em] text-white/80 sm:flex-row">
-          <p className="text-center sm:text-left">© {new Date().getFullYear()} Cooperativa de Occidente. Todos los derechos reservados.</p>
+          <p className="text-center sm:text-left">© {currentYear} Cooperativa de Occidente. Todos los derechos reservados.</p>
           <div className="flex items-center gap-4">
-            <a href="#" aria-label="Instagram" className="transition hover:text-white">
-              <img src="/img/instagram.svg" alt="Instagram" className="h-5 w-5" />
+            <a
+              href="https://www.instagram.com/deoccidenteoficial/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+              className="transition hover:text-white"
+            >
+              <InstagramIcon className="h-5 w-5" aria-hidden="true" />
             </a>
-            <a href="#" aria-label="TikTok" className="transition hover:text-white">
-              <img src="/img/tiktok.svg" alt="TikTok" className="h-5 w-5" />
+            <a
+              href="https://www.facebook.com/DeOccidente"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Facebook"
+              className="transition hover:text-white"
+            >
+              <FacebookIcon className="h-5 w-5" aria-hidden="true" />
             </a>
           </div>
         </div>

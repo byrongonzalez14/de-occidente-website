@@ -28,7 +28,7 @@ export const cooperativeAbout = {
     { label: "Cobertura nacional", description: "en envíos y logística con aliados certificados" },
   ],
   media: {
-    imageUrl: "/img/photo-8.png",
+    imageUrl: "/img/general/personal-deoccidente.png",
     caption: "Nuestro equipo en la base operativa de Roldanillo, Valle del Cauca.",
   },
 };

@@ -1,8 +1,12 @@
+import { FaFacebook, FaInstagram, FaMagnifyingGlass } from "react-icons/fa6";
+import type { ComponentType } from "react";
 import { useState } from "react";
+import type { IconBaseProps } from "react-icons";
 import { Link } from "react-router-dom";
 
 import { cooperativeQuickLinks } from "../../data/cooperativeOverview";
 import { SERVICES_OVERVIEW } from "../../data/servicesOverview";
+import { SearchModal } from "../SearchModal";
 
 type NavigationItem = {
   label: string;
@@ -36,6 +40,11 @@ const navigationItems: NavigationItem[] = [
 
 export const HeaderSection = (): JSX.Element => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
+
+  const InstagramIcon = FaInstagram as ComponentType<IconBaseProps>;
+  const FacebookIcon = FaFacebook as ComponentType<IconBaseProps>;
+  const SearchIcon = FaMagnifyingGlass as ComponentType<IconBaseProps>;
 
   const closeMobileMenu = () => setIsMobileMenuOpen(false);
 
@@ -123,12 +132,32 @@ export const HeaderSection = (): JSX.Element => {
         </nav>
 
         <div className="hidden items-center gap-4 lg:flex">
-          <a href="#" aria-label="Instagram" className="text-gray-500 transition hover:text-gray-700">
-            <img src="/img/instagram.svg" alt="Instagram" className="h-6 w-6" />
+          <a
+            href="https://www.instagram.com/deoccidenteoficial/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+            className="text-gray-500 transition hover:text-gray-700"
+          >
+            <InstagramIcon className="h-6 w-6" aria-hidden="true" />
           </a>
-          <a href="#" aria-label="TikTok" className="text-gray-500 transition hover:text-gray-700">
-            <img src="/img/tiktok.svg" alt="TikTok" className="h-6 w-6" />
+          <a
+            href="https://www.facebook.com/DeOccidente"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook"
+            className="text-gray-500 transition hover:text-gray-700"
+          >
+            <FacebookIcon className="h-6 w-6" aria-hidden="true" />
           </a>
+          <button
+            type="button"
+            onClick={() => setIsSearchOpen(true)}
+            className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 text-slate-500 transition hover:border-[#c01e27] hover:text-[#c01e27]"
+            aria-label="Abrir buscador"
+          >
+            <SearchIcon className="h-4 w-4" aria-hidden="true" />
+          </button>
         </div>
       </div>
 
@@ -166,16 +195,41 @@ export const HeaderSection = (): JSX.Element => {
             </ul>
 
             <div className="flex items-center gap-4">
-              <a href="#" aria-label="Instagram" className="text-slate-500 transition hover:text-[#c01e27]">
-                <img src="/img/instagram.svg" alt="Instagram" className="h-6 w-6" />
+              <a
+                href="https://www.instagram.com/deoccidenteoficial/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+                className="text-slate-500 transition hover:text-[#c01e27]"
+              >
+                <InstagramIcon className="h-6 w-6" aria-hidden="true" />
               </a>
-              <a href="#" aria-label="TikTok" className="text-slate-500 transition hover:text-[#c01e27]">
-                <img src="/img/tiktok.svg" alt="TikTok" className="h-6 w-6" />
+              <a
+                href="https://www.facebook.com/DeOccidente"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+                className="text-slate-500 transition hover:text-[#c01e27]"
+              >
+                <FacebookIcon className="h-6 w-6" aria-hidden="true" />
               </a>
+              <button
+                type="button"
+                onClick={() => {
+                  setIsSearchOpen(true);
+                  closeMobileMenu();
+                }}
+                className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 text-slate-500 transition hover:border-[#c01e27] hover:text-[#c01e27]"
+                aria-label="Abrir buscador"
+              >
+                <SearchIcon className="h-4 w-4" aria-hidden="true" />
+              </button>
             </div>
           </nav>
         </div>
       )}
+
+      <SearchModal isOpen={isSearchOpen} onClose={() => setIsSearchOpen(false)} />
     </header>
   );
 };

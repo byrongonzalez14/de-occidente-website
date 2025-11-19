@@ -9,7 +9,7 @@ interface CooperativeAsideLinksProps {
 export const CooperativeAsideLinks = ({ currentId }: CooperativeAsideLinksProps): JSX.Element => {
   return (
     <aside className="sticky top-28 space-y-4">
-      <div className="rounded-3xl border border-slate-200 bg-white shadow-[0px_18px_45px_rgba(0,0,0,0.12)]">
+      <div className="overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-[0px_18px_45px_rgba(0,0,0,0.12)]">
         <header className="border-b border-slate-200 bg-[#c01e27] px-6 py-4">
           <h2 className="text-center text-sm font-semibold uppercase tracking-[0.25em] text-white">Otras secciones</h2>
         </header>

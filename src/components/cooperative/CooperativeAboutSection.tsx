@@ -56,17 +56,7 @@ export const CooperativeAboutSection = ({
 
         {media && (
           <figure className="relative overflow-hidden rounded-3xl shadow-[0px_24px_60px_rgba(0,0,0,0.15)]">
-            <img
-              src={media.imageUrl}
-              alt={media.caption ?? "Equipo de la cooperativa"}
-              className="h-full w-full object-cover"
-              loading="lazy"
-            />
-            {media.caption && (
-              <figcaption className="absolute bottom-0 left-0 right-0 bg-black/50 px-5 py-3 text-sm text-white">
-                {media.caption}
-              </figcaption>
-            )}
+            <img src={media.imageUrl} alt={media.caption ?? "Equipo de la cooperativa"} className="h-full w-full object-cover" loading="lazy" />
           </figure>
         )}
       </div>

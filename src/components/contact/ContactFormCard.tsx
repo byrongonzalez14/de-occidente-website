@@ -1,4 +1,5 @@
-import { FormEvent, useState } from "react";
+import emailjs from "@emailjs/browser";
+import { FormEvent, useMemo, useState } from "react";
 
 interface ContactFormCardProps {
   onSubmit?: (formData: ContactFormFields) => Promise<void> | void;
@@ -20,10 +21,40 @@ const initialValues: ContactFormFields = {
   topic: "general",
 };
 
+const EMAILJS_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+const EMAILJS_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+const EMAILJS_PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+
+const topicLabels: Record<string, string> = {
+  general: "Información general",
+  encomiendas: "Encomiendas y logística",
+  pasajeros: "Transporte de pasajeros",
+  convenios: "Convenios empresariales",
+  pqrs: "PQRS",
+};
+
+const sanitizePayload = (values: ContactFormFields) => ({
+  subject: topicLabels[values.topic] ?? values.topic,
+  full_name: values.fullName,
+  email: values.email,
+  phone: values.phone,
+  message: values.message,
+});
+
+const sendContactEmail = async (values: ContactFormFields) => {
+  if (!EMAILJS_SERVICE_ID || !EMAILJS_TEMPLATE_ID || !EMAILJS_PUBLIC_KEY) {
+    throw new Error("EmailJS environment variables are not configured.");
+  }
+
+  return emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, sanitizePayload(values), EMAILJS_PUBLIC_KEY);
+};
+
 export const ContactFormCard = ({ onSubmit }: ContactFormCardProps): JSX.Element => {
   const [formValues, setFormValues] = useState<ContactFormFields>(initialValues);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [status, setStatus] = useState<"idle" | "success" | "error">("idle");
+
+  const handleSubmitAction = useMemo(() => onSubmit ?? sendContactEmail, [onSubmit]);
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     const { name, value } = event.target;
@@ -36,7 +67,7 @@ export const ContactFormCard = ({ onSubmit }: ContactFormCardProps): JSX.Element
     setStatus("idle");
 
     try {
-      await onSubmit?.(formValues);
+      await handleSubmitAction(formValues);
       setStatus("success");
       setFormValues(initialValues);
     } catch (error) {

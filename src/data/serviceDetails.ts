@@ -61,8 +61,8 @@ export const SERVICE_DETAILS: ServiceDetail[] = [
     extra: {
       title: "Cobertura",
       description:
-        "Roldanillo · Cali · Armenia · La Tulia · La Unión · Santa Rita · Buga · Pereira · Cartago · Bolívar · El Naranjal · La Aguada · Rícuete · Zarzal · El Dovio · Buga · Tuluá",
-      videoSrc: "/img/general/viaja-con-nosotros.mp4",
+        "Roldanillo · Cali · Armenia · La Tulia · La Unión · Santa Rita · Buga · Pereira · Cartago · Bolívar · El Naranjal · La Aguada · Ricaurte · Zarzal · El Dovio · Buga · Tuluá",
+      videoSrc: "/img/general/clip-encomiendas.mp4",
       videoPoster: "/img/general/servicio-encomiendas.png",
       imageAlt: "Tus envíos son nuestra prioridad",
     },
@@ -82,10 +82,9 @@ export const SERVICE_DETAILS: ServiceDetail[] = [
     intro:
       "En De Occidente transportamos a toda la familia así que puedes viajar con tu mascota en nuestros vehículos, teniendo en cuenta la siguiente información.",
     body: [
-      "Asegúrate que tu mascota pueda viajar cómodamente en un guacal de 25 x 40 cm, en nuestras bodegas, las cuales están perfectamente desinfectadas y ventiladas para su comodidad.",
-      "Comunícate con la oficina de tu ciudad mínimo dos horas de anterioridad para que nuestros colaboradores puedan asignarte uno de ellos y brindarte acompañamiento durante el viaje.",
-      "Ten presente que la comodidad de nuestros #ViajerosDeOccidente es prioridad, así como lo es la ley. Si tu mascota no cabe en el guacal es necesario llegar a un acuerdo con nuestro conductor y garantizar que ningún pasajero tenga inconvenientes de alergias.",
-      "Ver modificación a la Ley 769 de 2002 “Transporte público no podrá prohibir ingreso de mascotas pequeñas” | El Espectador."
+      "Asegúrate que tu mascota pueda viajar cómodamente en un guacal de 25 x 40 cm, en nuestras bodegas, las cuales están perfectamente adecuadas y ventiladas para su comodidad.",
+      "Comunícate con la oficina de tu ciudad mínimo dos horas de anterioridad para que nuestros colaboradores puedan asignarte uno de ellos.",
+      "Ten presente que la comodidad de nuestros #ViajerosDeOccidente es prioridad, así como la ley. Si tu mascota no cabe en el guacal, es necesario llegar a un acuerdo con nuestro conductor y, si ningún pasajero tiene problemas de alergias o le incomoda, la mascota puede viajar en el pasillo."
     ],
     highlights: [
       "Guacales desinfectados y ventilados",
@@ -99,14 +98,10 @@ export const SERVICE_DETAILS: ServiceDetail[] = [
       { title: "Viaja tranquilo", description: "Supervisamos el traslado y te avisamos en las paradas programadas." }
     ],
     cta: {
-      label: "Reserva tu viaje",
-      href: "#requisitos",
+      label: "Busca una ruta",
+      href: "/destinos",
     },
-    extra: {
-      title: "Recomendación",
-      description:
-        "Por normativa, el transporte público no puede prohibir el ingreso de mascotas pequeñas. Consulta nuestras condiciones especiales para razas medianas o grandes."
-    }
+    extra: undefined
   },
   {
     id: "transporte-pasajeros",

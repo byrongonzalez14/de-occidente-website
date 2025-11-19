@@ -5,16 +5,18 @@ interface MissionVisionCard {
 }
 
 interface CooperativeMissionVisionSectionProps {
+  id?: string;
   title: string;
   cards: MissionVisionCard[];
 }
 
 export const CooperativeMissionVisionSection = ({
+  id,
   title,
   cards,
 }: CooperativeMissionVisionSectionProps): JSX.Element => {
   return (
-    <section className="page-section bg-[#f8f9fb] py-16">
+    <section id={id} className="page-section rounded-3xl bg-[#f8f9fb] py-16">
       <div className="mx-auto flex max-w-6xl flex-col gap-10">
         <header className="text-center">
           <p className="text-xs font-semibold uppercase tracking-[0.35em] text-[#c01e27]">Estrategia</p>

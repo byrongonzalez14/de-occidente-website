@@ -1,0 +1,101 @@
+[
+  {
+    "id": "armenia",
+    "name": "Armenia",
+    "price": 26900,
+    "currency": "COP",
+    "image": "/img/headers-destinos/armenia.jpg"
+  },
+  {
+    "id": "bolivar",
+    "name": "Bolívar",
+    "price": 23900,
+    "currency": "COP",
+    "image": "/img/headers-destinos/bolivar.jpg"
+  },
+  {
+    "id": "buga",
+    "name": "Buga",
+    "price": 24900,
+    "currency": "COP",
+    "image": "/img/headers-destinos/buga.jpg"
+  },
+  {
+    "id": "cali",
+    "name": "Cali",
+    "price": 26900,
+    "currency": "COP",
+    "image": "/img/headers-destinos/cali.jpg"
+  },
+  {
+    "id": "cartago",
+    "name": "Cartago",
+    "price": 25900,
+    "currency": "COP",
+    "image": "/img/headers-destinos/cartago.jpg"
+  },
+  {
+    "id": "el-dovio",
+    "name": "El Dovio",
+    "price": 18900,
+    "currency": "COP",
+    "image": "/img/headers-destinos/el-dovio.jpg"
+  },
+  {
+    "id": "el-naranjal",
+    "name": "El Naranjal",
+    "price": 19900,
+    "currency": "COP",
+    "image": "/img/headers-destinos/naranjal.jpg"
+  },
+  {
+    "id": "la-aguada",
+    "name": "La Aguada",
+    "price": 18900,
+    "currency": "COP",
+    "image": "/img/headers-destinos/la-aguada.jpg"
+  },
+  {
+    "id": "la-tulia",
+    "name": "La Tulia",
+    "price": 18900,
+    "currency": "COP",
+    "image": "/img/headers-destinos/la-tulia.jpg"
+  },
+  {
+    "id": "la-union",
+    "name": "La Unión",
+    "price": 22900,
+    "currency": "COP",
+    "image": "/img/headers-destinos/la-union.jpg"
+  },
+  {
+    "id": "pereira",
+    "name": "Pereira",
+    "price": 26900,
+    "currency": "COP",
+    "image": "/img/headers-destinos/pereira.jpg"
+  },
+  {
+    "id": "roldanillo",
+    "name": "Roldanillo",
+    "price": 26900,
+    "currency": "COP",
+    "image": "/img/headers-destinos/roldanillo.jpg"
+  },
+  
+  {
+    "id": "tulua",
+    "name": "Tuluá",
+    "price": 22900,
+    "currency": "COP",
+    "image": "/img/headers-destinos/tulua.jpg"
+  },
+  {
+    "id": "zarzal",
+    "name": "Zarzal",
+    "price": 20900,
+    "currency": "COP",
+    "image": "/img/headers-destinos/zarzal.jpg"
+  }
+]

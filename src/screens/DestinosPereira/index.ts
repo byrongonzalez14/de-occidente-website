@@ -1,0 +1,1 @@
+export { DestinosPereira } from "./DestinosPereira";

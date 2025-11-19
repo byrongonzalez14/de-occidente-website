@@ -1,0 +1,1 @@
+export { DestinosTulu } from "./DestinosTulu";

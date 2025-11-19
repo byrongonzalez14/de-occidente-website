@@ -1,0 +1,1 @@
+export { DestinosLaTulia } from "./DestinosLaTulia";

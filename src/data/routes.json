@@ -1,0 +1,3563 @@
+[
+  {
+    "id": 1,
+    "nombre_completo": "ANDALUCIA-CALI",
+    "origen": "ANDALUCIA",
+    "destino": "CALI",
+    "es_segmento_via": false,
+    "precio_tiquete": 25400,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": "3215252796"
+      },
+      "destino": {
+        "fijo": "(602) 6618809",
+        "celular": "3108309710"
+      }
+    }
+  },
+  {
+    "id": 2,
+    "nombre_completo": "ANDALUCIA-CARTAGO",
+    "origen": "ANDALUCIA",
+    "destino": "CARTAGO",
+    "es_segmento_via": false,
+    "precio_tiquete": 26600,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": "3215252796"
+      },
+      "destino": {
+        "fijo": "(602) 2144712 – (602) 2176227",
+        "celular": "3217795909"
+      }
+    }
+  },
+  {
+    "id": 3,
+    "nombre_completo": "ANDALUCIA-OBANDO",
+    "origen": "ANDALUCIA",
+    "destino": "OBANDO",
+    "es_segmento_via": false,
+    "precio_tiquete": 21800,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": "3215252796"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": "3113763322"
+      }
+    }
+  },
+  {
+    "id": 4,
+    "nombre_completo": "ANSERMANUEVO-BUGA",
+    "origen": "ANSERMANUEVO",
+    "destino": "BUGA",
+    "es_segmento_via": false,
+    "precio_tiquete": 31900,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": null
+      },
+      "destino": {
+        "fijo": "(602) 2373995",
+        "celular": "3217728904"
+      }
+    }
+  },
+  {
+    "id": 5,
+    "nombre_completo": "ANSERMANUEVO-CALI",
+    "origen": "ANSERMANUEVO",
+    "destino": "CALI",
+    "es_segmento_via": false,
+    "precio_tiquete": 43600,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": null
+      },
+      "destino": {
+        "fijo": "(602) 6618809",
+        "celular": "3108309710"
+      }
+    }
+  },
+  {
+    "id": 6,
+    "nombre_completo": "ARMENIA-ZARZAL",
+    "origen": "ARMENIA",
+    "destino": "ZARZAL",
+    "es_segmento_via": false,
+    "precio_tiquete": null,
+    "horario_descripcion": "6:00 A.M, 7:30 A.M, 9:00 A.M, 11:00 A.M, 1:00 P.M, 3:00 P.M, 5:00 P.M, 7:00 P.M",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(606) 7371765",
+        "celular": "3217720147"
+      },
+      "destino": {
+        "fijo": "(602) 2035207",
+        "celular": "3217790471"
+      }
+    }
+  },
+  {
+    "id": 7,
+    "nombre_completo": "BOLIVAR-AGUASLINDAS",
+    "origen": "BOLIVAR",
+    "destino": "AGUASLINDAS",
+    "es_segmento_via": false,
+    "precio_tiquete": 19000,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": null
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 8,
+    "nombre_completo": "BOLIVAR-BETANIA",
+    "origen": "BOLIVAR",
+    "destino": "BETANIA",
+    "es_segmento_via": false,
+    "precio_tiquete": 20700,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": null
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 9,
+    "nombre_completo": "BOLIVAR-EL FUSIL",
+    "origen": "BOLIVAR",
+    "destino": "EL FUSIL",
+    "es_segmento_via": false,
+    "precio_tiquete": 11400,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": null
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 10,
+    "nombre_completo": "BOLIVAR-EL HOBO",
+    "origen": "BOLIVAR",
+    "destino": "EL HOBO",
+    "es_segmento_via": false,
+    "precio_tiquete": 4300,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": null
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 11,
+    "nombre_completo": "BOLIVAR-NARANJAL",
+    "origen": "BOLIVAR",
+    "destino": "NARANJAL",
+    "es_segmento_via": false,
+    "precio_tiquete": 15100,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": null
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 12,
+    "nombre_completo": "BOLIVAR-PRIMAVERA",
+    "origen": "BOLIVAR",
+    "destino": "PRIMAVERA",
+    "es_segmento_via": false,
+    "precio_tiquete": 8200,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": null
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 13,
+    "nombre_completo": "BOLIVAR-ROLDANILLO",
+    "origen": "BOLIVAR",
+    "destino": "ROLDANILLO",
+    "es_segmento_via": false,
+    "precio_tiquete": 4700,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": null
+      },
+      "destino": {
+        "fijo": "(602) 2299550 – (602) 2294327",
+        "celular": "3206655698"
+      }
+    }
+  },
+  {
+    "id": 14,
+    "nombre_completo": "BUGALAGRANDE-VARIANTE-CARTAGO (C)",
+    "origen": "BUGALAGRANDE",
+    "destino": "CARTAGO (C)",
+    "es_segmento_via": true,
+    "precio_tiquete": 22500,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2265891",
+        "celular": "3104638595"
+      },
+      "destino": {
+        "fijo": "(602) 2144712 – (602) 2176227",
+        "celular": "3217795909"
+      }
+    },
+    "segmento": {
+      "nombre": "VARIANTE",
+      "contactos": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 15,
+    "nombre_completo": "BUGALAGRANDE-VARIANTE-CARTAGO (PER)",
+    "origen": "BUGALAGRANDE",
+    "destino": "CARTAGO (PER)",
+    "es_segmento_via": true,
+    "precio_tiquete": 26900,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2265891",
+        "celular": "3104638595"
+      },
+      "destino": {
+        "fijo": "(602) 2144712 – (602) 2176227",
+        "celular": "3217795909"
+      }
+    },
+    "segmento": {
+      "nombre": "VARIANTE",
+      "contactos": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 16,
+    "nombre_completo": "BUGA-ANDALUCIA",
+    "origen": "BUGA",
+    "destino": "ANDALUCIA",
+    "es_segmento_via": false,
+    "precio_tiquete": 17800,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2373995",
+        "celular": "3217728904"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": "3215252796"
+      }
+    }
+  },
+  {
+    "id": 17,
+    "nombre_completo": "BUGA-ANSERMANUEVO",
+    "origen": "BUGA",
+    "destino": "ANSERMANUEVO",
+    "es_segmento_via": false,
+    "precio_tiquete": 31900,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2373995",
+        "celular": "3217728904"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 18,
+    "nombre_completo": "BUGA-BUGALAGRANDE",
+    "origen": "BUGA",
+    "destino": "BUGALAGRANDE",
+    "es_segmento_via": false,
+    "precio_tiquete": 17800,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2373995",
+        "celular": "3217728904"
+      },
+      "destino": {
+        "fijo": "(602) 2265891",
+        "celular": "3104638595"
+      }
+    }
+  },
+  {
+    "id": 19,
+    "nombre_completo": "BUGA-LA PAILA",
+    "origen": "BUGA",
+    "destino": "LA PAILA",
+    "es_segmento_via": false,
+    "precio_tiquete": 18600,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2373995",
+        "celular": "3217728904"
+      },
+      "destino": {
+        "fijo": "(602) 2034193",
+        "celular": "3217759133"
+      }
+    }
+  },
+  {
+    "id": 20,
+    "nombre_completo": "BUGA-LA URIBE",
+    "origen": "BUGA",
+    "destino": "LA URIBE",
+    "es_segmento_via": false,
+    "precio_tiquete": 21800,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2373995",
+        "celular": "3217728904"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 21,
+    "nombre_completo": "BUGA-LA VICTORIA",
+    "origen": "BUGA",
+    "destino": "LA VICTORIA",
+    "es_segmento_via": false,
+    "precio_tiquete": 27800,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2373995",
+        "celular": "3217728904"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 22,
+    "nombre_completo": "BUGA-OBANDO",
+    "origen": "BUGA",
+    "destino": "OBANDO",
+    "es_segmento_via": false,
+    "precio_tiquete": 24500,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2373995",
+        "celular": "3217728904"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": "3113763322"
+      }
+    }
+  },
+  {
+    "id": 23,
+    "nombre_completo": "BUGA-ROLDANILLO",
+    "origen": "BUGA",
+    "destino": "ROLDANILLO",
+    "es_segmento_via": false,
+    "precio_tiquete": 21700,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2373995",
+        "celular": "3217728904"
+      },
+      "destino": {
+        "fijo": "(602) 2299550 – (602) 2294327",
+        "celular": "3206655698"
+      }
+    }
+  },
+  {
+    "id": 24,
+    "nombre_completo": "BUGA-ZARZAL (P)",
+    "origen": "BUGA",
+    "destino": "ZARZAL (P)",
+    "es_segmento_via": false,
+    "precio_tiquete": 34900,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2373995",
+        "celular": "3217728904"
+      },
+      "destino": {
+        "fijo": "(602) 2035207",
+        "celular": "3217790471"
+      }
+    }
+  },
+  {
+    "id": 25,
+    "nombre_completo": "BUGALAGRANDE-CALI",
+    "origen": "BUGALAGRANDE",
+    "destino": "CALI",
+    "es_segmento_via": false,
+    "precio_tiquete": 25400,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2265891",
+        "celular": "3104638595"
+      },
+      "destino": {
+        "fijo": "(602) 6618809",
+        "celular": "3108309710"
+      }
+    }
+  },
+  {
+    "id": 26,
+    "nombre_completo": "CALI-BUGALAGRANDE-CARTAGO (C)",
+    "origen": "CALI",
+    "destino": "CARTAGO (C)",
+    "es_segmento_via": true,
+    "precio_tiquete": 25600,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 6618809",
+        "celular": "3108309710"
+      },
+      "destino": {
+        "fijo": "(602) 2144712 – (602) 2176227",
+        "celular": "3217795909"
+      }
+    },
+    "segmento": {
+      "nombre": "BUGALAGRANDE",
+      "contactos": {
+        "fijo": "(602) 2265891",
+        "celular": "3104638595"
+      }
+    }
+  },
+  {
+    "id": 27,
+    "nombre_completo": "CALI-BUGALAGRANDE-CARTAGO (PER)",
+    "origen": "CALI",
+    "destino": "CARTAGO (PER)",
+    "es_segmento_via": true,
+    "precio_tiquete": 28600,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 6618809",
+        "celular": "3108309710"
+      },
+      "destino": {
+        "fijo": "(602) 2144712 – (602) 2176227",
+        "celular": "3217795909"
+      }
+    },
+    "segmento": {
+      "nombre": "BUGALAGRANDE",
+      "contactos": {
+        "fijo": "(602) 2265891",
+        "celular": "3104638595"
+      }
+    }
+  },
+  {
+    "id": 28,
+    "nombre_completo": "CALI-BUGALAGRANDE-OBANDO",
+    "origen": "CALI",
+    "destino": "OBANDO",
+    "es_segmento_via": true,
+    "precio_tiquete": 17800,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 6618809",
+        "celular": "3108309710"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": "3113763322"
+      }
+    },
+    "segmento": {
+      "nombre": "BUGALAGRANDE",
+      "contactos": {
+        "fijo": "(602) 2265891",
+        "celular": "3104638595"
+      }
+    }
+  },
+  {
+    "id": 29,
+    "nombre_completo": "CALI-ANDALUCIA",
+    "origen": "CALI",
+    "destino": "ANDALUCIA",
+    "es_segmento_via": false,
+    "precio_tiquete": 25400,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 6618809",
+        "celular": "3108309710"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": "3215252796"
+      }
+    }
+  },
+  {
+    "id": 30,
+    "nombre_completo": "CALI-BUGA-CARTAGO",
+    "origen": "CALI",
+    "destino": "CARTAGO",
+    "es_segmento_via": true,
+    "precio_tiquete": 28400,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 6618809",
+        "celular": "3108309710"
+      },
+      "destino": {
+        "fijo": "(602) 2144712 – (602) 2176227",
+        "celular": "3217795909"
+      }
+    },
+    "segmento": {
+      "nombre": "BUGA",
+      "contactos": {
+        "fijo": "(602) 2373995",
+        "celular": "3217728904"
+      }
+    }
+  },
+  {
+    "id": 31,
+    "nombre_completo": "CALI-BUGA-CARTAGO (PER)",
+    "origen": "CALI",
+    "destino": "CARTAGO (PER)",
+    "es_segmento_via": true,
+    "precio_tiquete": 34900,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 6618809",
+        "celular": "3108309710"
+      },
+      "destino": {
+        "fijo": "(602) 2144712 – (602) 2176227",
+        "celular": "3217795909"
+      }
+    },
+    "segmento": {
+      "nombre": "BUGA",
+      "contactos": {
+        "fijo": "(602) 2373995",
+        "celular": "3217728904"
+      }
+    }
+  },
+  {
+    "id": 32,
+    "nombre_completo": "CALI-BUGALAGRANDE",
+    "origen": "CALI",
+    "destino": "BUGALAGRANDE",
+    "es_segmento_via": false,
+    "precio_tiquete": 25400,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 6618809",
+        "celular": "3108309710"
+      },
+      "destino": {
+        "fijo": "(602) 2265891",
+        "celular": "3104638595"
+      }
+    }
+  },
+  {
+    "id": 33,
+    "nombre_completo": "CALI-EL CERRITO",
+    "origen": "CALI",
+    "destino": "EL CERRITO",
+    "es_segmento_via": false,
+    "precio_tiquete": 19600,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 6618809",
+        "celular": "3108309710"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 34,
+    "nombre_completo": "CALI-EL OVERO",
+    "origen": "CALI",
+    "destino": "EL OVERO",
+    "es_segmento_via": false,
+    "precio_tiquete": 25100,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 6618809",
+        "celular": "3108309710"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 35,
+    "nombre_completo": "CALI-LA PAILA",
+    "origen": "CALI",
+    "destino": "LA PAILA",
+    "es_segmento_via": false,
+    "precio_tiquete": 28400,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 6618809",
+        "celular": "3108309710"
+      },
+      "destino": {
+        "fijo": "(602) 2034193",
+        "celular": "3217759133"
+      }
+    }
+  },
+  {
+    "id": 36,
+    "nombre_completo": "CALI-LA URIBE",
+    "origen": "CALI",
+    "destino": "LA URIBE",
+    "es_segmento_via": false,
+    "precio_tiquete": 25100,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 6618809",
+        "celular": "3108309710"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 37,
+    "nombre_completo": "CALI-LA VICTORIA",
+    "origen": "CALI",
+    "destino": "LA VICTORIA",
+    "es_segmento_via": false,
+    "precio_tiquete": 32000,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 6618809",
+        "celular": "3108309710"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 38,
+    "nombre_completo": "CALI-ROLDANILLO",
+    "origen": "CALI",
+    "destino": "ROLDANILLO",
+    "es_segmento_via": false,
+    "precio_tiquete": 35400,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 6618809",
+        "celular": "3108309710"
+      },
+      "destino": {
+        "fijo": "(602) 2299550 – (602) 2294327",
+        "celular": "3206655698"
+      }
+    }
+  },
+  {
+    "id": 39,
+    "nombre_completo": "CALI-TULUÁ-CARTAGO",
+    "origen": "CALI",
+    "destino": "CARTAGO",
+    "es_segmento_via": true,
+    "precio_tiquete": 25600,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 6618809",
+        "celular": "3108309710"
+      },
+      "destino": {
+        "fijo": "(602) 2144712 – (602) 2176227",
+        "celular": "3217795909"
+      }
+    },
+    "segmento": {
+      "nombre": "TULUÁ",
+      "contactos": {
+        "fijo": null,
+        "celular": "3185781413"
+      }
+    }
+  },
+  {
+    "id": 40,
+    "nombre_completo": "CALI-ZARZAL",
+    "origen": "CALI",
+    "destino": "ZARZAL",
+    "es_segmento_via": false,
+    "precio_tiquete": 33100,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 6618809",
+        "celular": "3108309710"
+      },
+      "destino": {
+        "fijo": "(602) 2035207",
+        "celular": "3217790471"
+      }
+    }
+  },
+  {
+    "id": 41,
+    "nombre_completo": "CALI-ZARZAL BATALLÓN",
+    "origen": "CALI",
+    "destino": "ZARZAL BATALLÓN",
+    "es_segmento_via": false,
+    "precio_tiquete": 29900,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 6618809",
+        "celular": "3108309710"
+      },
+      "destino": {
+        "fijo": "(602) 2035207",
+        "celular": "3217790471"
+      }
+    }
+  },
+  {
+    "id": 42,
+    "nombre_completo": "CARTAGO-BUGALAGRANDE",
+    "origen": "CARTAGO",
+    "destino": "BUGALAGRANDE",
+    "es_segmento_via": false,
+    "precio_tiquete": 22500,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2144712 – (602) 2176227",
+        "celular": "3217795909"
+      },
+      "destino": {
+        "fijo": "(602) 2265891",
+        "celular": "3104638595"
+      }
+    }
+  },
+  {
+    "id": 43,
+    "nombre_completo": "CARTAGO-BUGA",
+    "origen": "CARTAGO",
+    "destino": "BUGA",
+    "es_segmento_via": false,
+    "precio_tiquete": 28400,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2144712 – (602) 2176227",
+        "celular": "3217795909"
+      },
+      "destino": {
+        "fijo": "(602) 2373995",
+        "celular": "3217728904"
+      }
+    }
+  },
+  {
+    "id": 44,
+    "nombre_completo": "CARTAGO-CALI",
+    "origen": "CARTAGO",
+    "destino": "CALI",
+    "es_segmento_via": false,
+    "precio_tiquete": 40800,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2144712 – (602) 2176227",
+        "celular": "3217795909"
+      },
+      "destino": {
+        "fijo": "(602) 6618809",
+        "celular": "3108309710"
+      }
+    }
+  },
+  {
+    "id": 45,
+    "nombre_completo": "CARTAGO-EL CERRITO",
+    "origen": "CARTAGO",
+    "destino": "EL CERRITO",
+    "es_segmento_via": false,
+    "precio_tiquete": 32400,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2144712 – (602) 2176227",
+        "celular": "3217795909"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 46,
+    "nombre_completo": "CARTAGO-LA PAILA",
+    "origen": "CARTAGO",
+    "destino": "LA PAILA",
+    "es_segmento_via": false,
+    "precio_tiquete": 17800,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2144712 – (602) 2176227",
+        "celular": "3217795909"
+      },
+      "destino": {
+        "fijo": "(602) 2034193",
+        "celular": "3217759133"
+      }
+    }
+  },
+  {
+    "id": 47,
+    "nombre_completo": "CARTAGO-LA URIBE",
+    "origen": "CARTAGO",
+    "destino": "LA URIBE",
+    "es_segmento_via": false,
+    "precio_tiquete": 18600,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2144712 – (602) 2176227",
+        "celular": "3217795909"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 48,
+    "nombre_completo": "CERRITOS-LA VICTORIA",
+    "origen": "CERRITOS",
+    "destino": "LA VICTORIA",
+    "es_segmento_via": false,
+    "precio_tiquete": 14000,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": null
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 49,
+    "nombre_completo": "CERRITOS-ZARAGOZA",
+    "origen": "CERRITOS",
+    "destino": "ZARAGOZA",
+    "es_segmento_via": false,
+    "precio_tiquete": 9000,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": null
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 50,
+    "nombre_completo": "LA PAILA-ARMENIA",
+    "origen": "LA PAILA",
+    "destino": "ARMENIA",
+    "es_segmento_via": false,
+    "precio_tiquete": 15300,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2034193",
+        "celular": "3217759133"
+      },
+      "destino": {
+        "fijo": "(606) 7371765",
+        "celular": "3217720147"
+      }
+    }
+  },
+  {
+    "id": 51,
+    "nombre_completo": "LA PAILA-BUGA",
+    "origen": "LA PAILA",
+    "destino": "BUGA",
+    "es_segmento_via": false,
+    "precio_tiquete": 18400,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2034193",
+        "celular": "3217759133"
+      },
+      "destino": {
+        "fijo": "(602) 2373995",
+        "celular": "3217728904"
+      }
+    }
+  },
+  {
+    "id": 52,
+    "nombre_completo": "LA PAILA-CALI",
+    "origen": "LA PAILA",
+    "destino": "CALI",
+    "es_segmento_via": false,
+    "precio_tiquete": 28400,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2034193",
+        "celular": "3217759133"
+      },
+      "destino": {
+        "fijo": "(602) 6618809",
+        "celular": "3108309710"
+      }
+    }
+  },
+  {
+    "id": 53,
+    "nombre_completo": "LA PAILA-CARTAGO",
+    "origen": "LA PAILA",
+    "destino": "CARTAGO",
+    "es_segmento_via": false,
+    "precio_tiquete": 17800,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2034193",
+        "celular": "3217759133"
+      },
+      "destino": {
+        "fijo": "(602) 2144712 – (602) 2176227",
+        "celular": "3217795909"
+      }
+    }
+  },
+  {
+    "id": 54,
+    "nombre_completo": "LA PAILA-CERRITOS",
+    "origen": "LA PAILA",
+    "destino": "CERRITOS",
+    "es_segmento_via": false,
+    "precio_tiquete": 18100,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2034193",
+        "celular": "3217759133"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 55,
+    "nombre_completo": "LA PAILA-LA UNIÓN",
+    "origen": "LA PAILA",
+    "destino": "LA UNIÓN",
+    "es_segmento_via": false,
+    "precio_tiquete": 5000,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2034193",
+        "celular": "3217759133"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": "3146219248"
+      }
+    }
+  },
+  {
+    "id": 56,
+    "nombre_completo": "LA PAILA-LA VICTORIA",
+    "origen": "LA PAILA",
+    "destino": "LA VICTORIA",
+    "es_segmento_via": false,
+    "precio_tiquete": 12400,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2034193",
+        "celular": "3217759133"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 57,
+    "nombre_completo": "LA PAILA-OBANDO",
+    "origen": "LA PAILA",
+    "destino": "OBANDO",
+    "es_segmento_via": false,
+    "precio_tiquete": 10400,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2034193",
+        "celular": "3217759133"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": "3113763322"
+      }
+    }
+  },
+  {
+    "id": 58,
+    "nombre_completo": "LA PAILA-PEREIRA",
+    "origen": "LA PAILA",
+    "destino": "PEREIRA",
+    "es_segmento_via": false,
+    "precio_tiquete": 20600,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2034193",
+        "celular": "3217759133"
+      },
+      "destino": {
+        "fijo": "(606) 3212919",
+        "celular": "3177504145"
+      }
+    }
+  },
+  {
+    "id": 59,
+    "nombre_completo": "LA PAILA-ZARZAL",
+    "origen": "LA PAILA",
+    "destino": "ZARZAL",
+    "es_segmento_via": false,
+    "precio_tiquete": 5000,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2034193",
+        "celular": "3217759133"
+      },
+      "destino": {
+        "fijo": "(602) 2035207",
+        "celular": "3217790471"
+      }
+    }
+  },
+  {
+    "id": 60,
+    "nombre_completo": "LA UNIÓN-CERRITOS",
+    "origen": "LA UNIÓN",
+    "destino": "CERRITOS",
+    "es_segmento_via": false,
+    "precio_tiquete": 23100,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": "3146219248"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 61,
+    "nombre_completo": "LA UNIÓN-HIGUERONCITO-SANTA RITA",
+    "origen": "LA UNIÓN",
+    "destino": "SANTA RITA",
+    "es_segmento_via": true,
+    "precio_tiquete": 4500,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": "3146219248"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    },
+    "segmento": {
+      "nombre": "HIGUERONCITO",
+      "contactos": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 62,
+    "nombre_completo": "LA UNIÓN-HIGUERONCITO",
+    "origen": "LA UNIÓN",
+    "destino": "HIGUERONCITO",
+    "es_segmento_via": false,
+    "precio_tiquete": 4200,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": "3146219248"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 63,
+    "nombre_completo": "LA UNIÓN-PEREIRA",
+    "origen": "LA UNIÓN",
+    "destino": "PEREIRA",
+    "es_segmento_via": false,
+    "precio_tiquete": 24900,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": "3146219248"
+      },
+      "destino": {
+        "fijo": "(606) 3212919",
+        "celular": "3177504145"
+      }
+    }
+  },
+  {
+    "id": 64,
+    "nombre_completo": "LA UNIÓN-PORTACHUELO",
+    "origen": "LA UNIÓN",
+    "destino": "PORTACHUELO",
+    "es_segmento_via": false,
+    "precio_tiquete": 2700,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": "3146219248"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 65,
+    "nombre_completo": "LA VICTORIA-ANDALUCIA",
+    "origen": "LA VICTORIA",
+    "destino": "ANDALUCIA",
+    "es_segmento_via": false,
+    "precio_tiquete": 17800,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": null
+      },
+      "destino": {
+        "fijo": null,
+        "celular": "3215252796"
+      }
+    }
+  },
+  {
+    "id": 66,
+    "nombre_completo": "LA VICTORIA-ARMENIA",
+    "origen": "LA VICTORIA",
+    "destino": "ARMENIA",
+    "es_segmento_via": false,
+    "precio_tiquete": 22500,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": null
+      },
+      "destino": {
+        "fijo": "(606) 7371765",
+        "celular": "3217720147"
+      }
+    }
+  },
+  {
+    "id": 67,
+    "nombre_completo": "LA VICTORIA-BUGALAGRANDE",
+    "origen": "LA VICTORIA",
+    "destino": "BUGALAGRANDE",
+    "es_segmento_via": false,
+    "precio_tiquete": 17800,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": null
+      },
+      "destino": {
+        "fijo": "(602) 2265891",
+        "celular": "3104638595"
+      }
+    }
+  },
+  {
+    "id": 68,
+    "nombre_completo": "LA VICTORIA-CARTAGO",
+    "origen": "LA VICTORIA",
+    "destino": "CARTAGO",
+    "es_segmento_via": false,
+    "precio_tiquete": 15600,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": null
+      },
+      "destino": {
+        "fijo": "(602) 2144712 – (602) 2176227",
+        "celular": "3217795909"
+      }
+    }
+  },
+  {
+    "id": 69,
+    "nombre_completo": "LA VICTORIA-CERRITOS",
+    "origen": "LA VICTORIA",
+    "destino": "CERRITOS",
+    "es_segmento_via": false,
+    "precio_tiquete": 14000,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": null
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 70,
+    "nombre_completo": "LA VICTORIA-OBANDO",
+    "origen": "LA VICTORIA",
+    "destino": "OBANDO",
+    "es_segmento_via": false,
+    "precio_tiquete": 12100,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": null
+      },
+      "destino": {
+        "fijo": null,
+        "celular": "3113763322"
+      }
+    }
+  },
+  {
+    "id": 71,
+    "nombre_completo": "LA VICTORIA-PEREIRA",
+    "origen": "LA VICTORIA",
+    "destino": "PEREIRA",
+    "es_segmento_via": false,
+    "precio_tiquete": 15600,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": null
+      },
+      "destino": {
+        "fijo": "(606) 3212919",
+        "celular": "3177504145"
+      }
+    }
+  },
+  {
+    "id": 72,
+    "nombre_completo": "LA VICTORIA-ROLDANILLO",
+    "origen": "LA VICTORIA",
+    "destino": "ROLDANILLO",
+    "es_segmento_via": false,
+    "precio_tiquete": 16100,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": null
+      },
+      "destino": {
+        "fijo": "(602) 2299550 – (602) 2294327",
+        "celular": "3206655698"
+      }
+    }
+  },
+  {
+    "id": 73,
+    "nombre_completo": "LA VICTORIA-ZARAGOZA",
+    "origen": "LA VICTORIA",
+    "destino": "ZARAGOZA",
+    "es_segmento_via": false,
+    "precio_tiquete": 9000,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": null
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 74,
+    "nombre_completo": "LA VICTORIA-ZARZAL",
+    "origen": "LA VICTORIA",
+    "destino": "ZARZAL",
+    "es_segmento_via": false,
+    "precio_tiquete": 13200,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": null
+      },
+      "destino": {
+        "fijo": "(602) 2035207",
+        "celular": "3217790471"
+      }
+    }
+  },
+  {
+    "id": 75,
+    "nombre_completo": "OBANDO-ANDALUCIA",
+    "origen": "OBANDO",
+    "destino": "ANDALUCIA",
+    "es_segmento_via": false,
+    "precio_tiquete": 19600,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": "3113763322"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": "3215252796"
+      }
+    }
+  },
+  {
+    "id": 76,
+    "nombre_completo": "OBANDO-BUGA",
+    "origen": "OBANDO",
+    "destino": "BUGA",
+    "es_segmento_via": false,
+    "precio_tiquete": 24500,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": "3113763322"
+      },
+      "destino": {
+        "fijo": "(602) 2373995",
+        "celular": "3217728904"
+      }
+    }
+  },
+  {
+    "id": 77,
+    "nombre_completo": "OBANDO-CALI",
+    "origen": "OBANDO",
+    "destino": "CALI",
+    "es_segmento_via": false,
+    "precio_tiquete": 36800,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": "3113763322"
+      },
+      "destino": {
+        "fijo": "(602) 6618809",
+        "celular": "3108309710"
+      }
+    }
+  },
+  {
+    "id": 78,
+    "nombre_completo": "OBANDO-CARTAGO",
+    "origen": "OBANDO",
+    "destino": "CARTAGO",
+    "es_segmento_via": false,
+    "precio_tiquete": 7500,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": "3113763322"
+      },
+      "destino": {
+        "fijo": "(602) 2144712 – (602) 2176227",
+        "celular": "3217795909"
+      }
+    }
+  },
+  {
+    "id": 79,
+    "nombre_completo": "OBANDO-CERRITOS",
+    "origen": "OBANDO",
+    "destino": "CERRITOS",
+    "es_segmento_via": false,
+    "precio_tiquete": 10700,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": "3113763322"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 80,
+    "nombre_completo": "OBANDO-LA PAILA",
+    "origen": "OBANDO",
+    "destino": "LA PAILA",
+    "es_segmento_via": false,
+    "precio_tiquete": 10400,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": "3113763322"
+      },
+      "destino": {
+        "fijo": "(602) 2034193",
+        "celular": "3217759133"
+      }
+    }
+  },
+  {
+    "id": 81,
+    "nombre_completo": "OBANDO-LA UNIÓN",
+    "origen": "OBANDO",
+    "destino": "LA UNIÓN",
+    "es_segmento_via": false,
+    "precio_tiquete": 12500,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": "3113763322"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": "3146219248"
+      }
+    }
+  },
+  {
+    "id": 82,
+    "nombre_completo": "OBANDO-LA URIBE",
+    "origen": "OBANDO",
+    "destino": "LA URIBE",
+    "es_segmento_via": false,
+    "precio_tiquete": 12100,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": "3113763322"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 83,
+    "nombre_completo": "OBANDO-PEREIRA",
+    "origen": "OBANDO",
+    "destino": "PEREIRA",
+    "es_segmento_via": false,
+    "precio_tiquete": 13800,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": "3113763322"
+      },
+      "destino": {
+        "fijo": "(606) 3212919",
+        "celular": "3177504145"
+      }
+    }
+  },
+  {
+    "id": 84,
+    "nombre_completo": "PEREIRA-LA UNIÓN",
+    "origen": "PEREIRA",
+    "destino": "LA UNIÓN",
+    "es_segmento_via": false,
+    "precio_tiquete": 16500,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(606) 3212919",
+        "celular": "3177504145"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": "3146219248"
+      }
+    }
+  },
+  {
+    "id": 85,
+    "nombre_completo": "PEREIRA-LA VICTORIA",
+    "origen": "PEREIRA",
+    "destino": "LA VICTORIA",
+    "es_segmento_via": false,
+    "precio_tiquete": 15600,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(606) 3212919",
+        "celular": "3177504145"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 86,
+    "nombre_completo": "PEREIRA-ZARZAL (LURB)",
+    "origen": "PEREIRA",
+    "destino": "ZARZAL (LURB)",
+    "es_segmento_via": false,
+    "precio_tiquete": 23800,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(606) 3212919",
+        "celular": "3177504145"
+      },
+      "destino": {
+        "fijo": "(602) 2035207",
+        "celular": "3217790471"
+      }
+    }
+  },
+  {
+    "id": 87,
+    "nombre_completo": "ROLDANI-LA MONTAÑUELA",
+    "origen": "ROLDANI",
+    "destino": "LA MONTAÑUELA",
+    "es_segmento_via": false,
+    "precio_tiquete": 9300,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": null
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 88,
+    "nombre_completo": "ROLDANILLO-ZARZAL (ESTUDIANTE)",
+    "origen": "ROLDANILLO",
+    "destino": "ZARZAL (ESTUDIANTE)",
+    "es_segmento_via": false,
+    "precio_tiquete": 3600,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2299550 – (602) 2294327",
+        "celular": "3206655698"
+      },
+      "destino": {
+        "fijo": "(602) 2035207",
+        "celular": "3217790471"
+      }
+    }
+  },
+  {
+    "id": 89,
+    "nombre_completo": "ROLDANILLO-ZARZAL (INTERMEDIO)",
+    "origen": "ROLDANILLO",
+    "destino": "ZARZAL (INTERMEDIO)",
+    "es_segmento_via": false,
+    "precio_tiquete": 3600,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2299550 – (602) 2294327",
+        "celular": "3206655698"
+      },
+      "destino": {
+        "fijo": "(602) 2035207",
+        "celular": "3217790471"
+      }
+    }
+  },
+  {
+    "id": 90,
+    "nombre_completo": "ROLDANILLO-AGUASLINDAS",
+    "origen": "ROLDANILLO",
+    "destino": "AGUASLINDAS",
+    "es_segmento_via": false,
+    "precio_tiquete": 22600,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2299550 – (602) 2294327",
+        "celular": "3206655698"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 91,
+    "nombre_completo": "ROLDANILLO-BETANIA",
+    "origen": "ROLDANILLO",
+    "destino": "BETANIA",
+    "es_segmento_via": false,
+    "precio_tiquete": 27200,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2299550 – (602) 2294327",
+        "celular": "3206655698"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 92,
+    "nombre_completo": "ROLDANILLO-BOLIVAR",
+    "origen": "ROLDANILLO",
+    "destino": "BOLIVAR",
+    "es_segmento_via": false,
+    "precio_tiquete": 4700,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2299550 – (602) 2294327",
+        "celular": "3206655698"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 93,
+    "nombre_completo": "ROLDANILLO-BUGA",
+    "origen": "ROLDANILLO",
+    "destino": "BUGA",
+    "es_segmento_via": false,
+    "precio_tiquete": 21700,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2299550 – (602) 2294327",
+        "celular": "3206655698"
+      },
+      "destino": {
+        "fijo": "(602) 2373995",
+        "celular": "3217728904"
+      }
+    }
+  },
+  {
+    "id": 94,
+    "nombre_completo": "ROLDANILLO-CAJAMARCA",
+    "origen": "ROLDANILLO",
+    "destino": "CAJAMARCA",
+    "es_segmento_via": false,
+    "precio_tiquete": 10700,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2299550 – (602) 2294327",
+        "celular": "3206655698"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 95,
+    "nombre_completo": "ROLDANILLO-CALI",
+    "origen": "ROLDANILLO",
+    "destino": "CALI",
+    "es_segmento_via": false,
+    "precio_tiquete": 35400,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2299550 – (602) 2294327",
+        "celular": "3206655698"
+      },
+      "destino": {
+        "fijo": "(602) 6618809",
+        "celular": "3108309710"
+      }
+    }
+  },
+  {
+    "id": 96,
+    "nombre_completo": "ROLDANILLO-CARTAGO",
+    "origen": "ROLDANILLO",
+    "destino": "CARTAGO",
+    "es_segmento_via": false,
+    "precio_tiquete": 17700,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2299550 – (602) 2294327",
+        "celular": "3206655698"
+      },
+      "destino": {
+        "fijo": "(602) 2144712 – (602) 2176227",
+        "celular": "3217795909"
+      }
+    }
+  },
+  {
+    "id": 97,
+    "nombre_completo": "ROLDANILLO-CASCARILLO",
+    "origen": "ROLDANILLO",
+    "destino": "CASCARILLO",
+    "es_segmento_via": false,
+    "precio_tiquete": 9500,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2299550 – (602) 2294327",
+        "celular": "3206655698"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 98,
+    "nombre_completo": "ROLDANILLO-CASERES",
+    "origen": "ROLDANILLO",
+    "destino": "CASERES",
+    "es_segmento_via": false,
+    "precio_tiquete": 8100,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2299550 – (602) 2294327",
+        "celular": "3206655698"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 99,
+    "nombre_completo": "ROLDANILLO-CRUCERO",
+    "origen": "ROLDANILLO",
+    "destino": "CRUCERO",
+    "es_segmento_via": false,
+    "precio_tiquete": 14400,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2299550 – (602) 2294327",
+        "celular": "3206655698"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 100,
+    "nombre_completo": "ROLDANILLO-EL CERRITO",
+    "origen": "ROLDANILLO",
+    "destino": "EL CERRITO",
+    "es_segmento_via": false,
+    "precio_tiquete": 26100,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2299550 – (602) 2294327",
+        "celular": "3206655698"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 101,
+    "nombre_completo": "ROLDANILLO-EL DOVIO",
+    "origen": "ROLDANILLO",
+    "destino": "EL DOVIO",
+    "es_segmento_via": false,
+    "precio_tiquete": 12500,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2299550 – (602) 2294327",
+        "celular": "3206655698"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 102,
+    "nombre_completo": "ROLDANILLO-EL FUSIL",
+    "origen": "ROLDANILLO",
+    "destino": "EL FUSIL",
+    "es_segmento_via": false,
+    "precio_tiquete": 16200,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2299550 – (602) 2294327",
+        "celular": "3206655698"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 103,
+    "nombre_completo": "ROLDANILLO-EL HOBO",
+    "origen": "ROLDANILLO",
+    "destino": "EL HOBO",
+    "es_segmento_via": false,
+    "precio_tiquete": 2700,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2299550 – (602) 2294327",
+        "celular": "3206655698"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 104,
+    "nombre_completo": "ROLDANILLO-EL SILENCIO",
+    "origen": "ROLDANILLO",
+    "destino": "EL SILENCIO",
+    "es_segmento_via": false,
+    "precio_tiquete": 10300,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2299550 – (602) 2294327",
+        "celular": "3206655698"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 105,
+    "nombre_completo": "ROLDANILLO-GUACAS",
+    "origen": "ROLDANILLO",
+    "destino": "GUACAS",
+    "es_segmento_via": false,
+    "precio_tiquete": 11300,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2299550 – (602) 2294327",
+        "celular": "3206655698"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 106,
+    "nombre_completo": "ROLDANILLO-LA AGUADA",
+    "origen": "ROLDANILLO",
+    "destino": "LA AGUADA",
+    "es_segmento_via": false,
+    "precio_tiquete": 11500,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2299550 – (602) 2294327",
+        "celular": "3206655698"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 107,
+    "nombre_completo": "ROLDANILLO-LA ARMENIA",
+    "origen": "ROLDANILLO",
+    "destino": "LA ARMENIA",
+    "es_segmento_via": false,
+    "precio_tiquete": 9300,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2299550 – (602) 2294327",
+        "celular": "3206655698"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 108,
+    "nombre_completo": "ROLDANILLO-LA PEÑA",
+    "origen": "ROLDANILLO",
+    "destino": "LA PEÑA",
+    "es_segmento_via": false,
+    "precio_tiquete": 8300,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2299550 – (602) 2294327",
+        "celular": "3206655698"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 109,
+    "nombre_completo": "ROLDANILLO-LA TULIA",
+    "origen": "ROLDANILLO",
+    "destino": "LA TULIA",
+    "es_segmento_via": false,
+    "precio_tiquete": 10800,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2299550 – (602) 2294327",
+        "celular": "3206655698"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 110,
+    "nombre_completo": "ROLDANILLO-LA UNIÓN",
+    "origen": "ROLDANILLO",
+    "destino": "LA UNIÓN",
+    "es_segmento_via": false,
+    "precio_tiquete": 5600,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2299550 – (602) 2294327",
+        "celular": "3206655698"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": "3146219248"
+      }
+    }
+  },
+  {
+    "id": 111,
+    "nombre_completo": "ROLDANILLO-MONTECRISTO",
+    "origen": "ROLDANILLO",
+    "destino": "MONTECRISTO",
+    "es_segmento_via": false,
+    "precio_tiquete": 5700,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2299550 – (602) 2294327",
+        "celular": "3206655698"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 112,
+    "nombre_completo": "ROLDANILLO-NARANJAL",
+    "origen": "ROLDANILLO",
+    "destino": "NARANJAL",
+    "es_segmento_via": false,
+    "precio_tiquete": 19700,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2299550 – (602) 2294327",
+        "celular": "3206655698"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 113,
+    "nombre_completo": "ROLDANILLO-OBANDO",
+    "origen": "ROLDANILLO",
+    "destino": "OBANDO",
+    "es_segmento_via": false,
+    "precio_tiquete": 12500,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2299550 – (602) 2294327",
+        "celular": "3206655698"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": "3113763322"
+      }
+    }
+  },
+  {
+    "id": 114,
+    "nombre_completo": "ROLDANILLO-PORTACHUELO",
+    "origen": "ROLDANILLO",
+    "destino": "PORTACHUELO",
+    "es_segmento_via": false,
+    "precio_tiquete": 4500,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2299550 – (602) 2294327",
+        "celular": "3206655698"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 115,
+    "nombre_completo": "ROLDANILLO-PRIMAVERA",
+    "origen": "ROLDANILLO",
+    "destino": "PRIMAVERA",
+    "es_segmento_via": false,
+    "precio_tiquete": 12500,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2299550 – (602) 2294327",
+        "celular": "3206655698"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 116,
+    "nombre_completo": "ROLDANILLO-RICAURTE",
+    "origen": "ROLDANILLO",
+    "destino": "RICAURTE",
+    "es_segmento_via": false,
+    "precio_tiquete": 7800,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2299550 – (602) 2294327",
+        "celular": "3206655698"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 117,
+    "nombre_completo": "ROLDANILLO-SANTA RITA",
+    "origen": "ROLDANILLO",
+    "destino": "SANTA RITA",
+    "es_segmento_via": false,
+    "precio_tiquete": 2900,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2299550 – (602) 2294327",
+        "celular": "3206655698"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 118,
+    "nombre_completo": "ROLDANILLO-ZARZAL",
+    "origen": "ROLDANILLO",
+    "destino": "ZARZAL",
+    "es_segmento_via": false,
+    "precio_tiquete": 4300,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2299550 – (602) 2294327",
+        "celular": "3206655698"
+      },
+      "destino": {
+        "fijo": "(602) 2035207",
+        "celular": "3217790471"
+      }
+    }
+  },
+  {
+    "id": 119,
+    "nombre_completo": "ROZO-ANDALUCIA",
+    "origen": "ROZO",
+    "destino": "ANDALUCIA",
+    "es_segmento_via": false,
+    "precio_tiquete": 25100,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": null
+      },
+      "destino": {
+        "fijo": null,
+        "celular": "3215252796"
+      }
+    }
+  },
+  {
+    "id": 120,
+    "nombre_completo": "ROZO-BUGALAGRANDE",
+    "origen": "ROZO",
+    "destino": "BUGALAGRANDE",
+    "es_segmento_via": false,
+    "precio_tiquete": 25100,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": null
+      },
+      "destino": {
+        "fijo": "(602) 2265891",
+        "celular": "3104638595"
+      }
+    }
+  },
+  {
+    "id": 121,
+    "nombre_completo": "ROZO-CARTAGO",
+    "origen": "ROZO",
+    "destino": "CARTAGO",
+    "es_segmento_via": false,
+    "precio_tiquete": 35900,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": null
+      },
+      "destino": {
+        "fijo": "(602) 2144712 – (602) 2176227",
+        "celular": "3217795909"
+      }
+    }
+  },
+  {
+    "id": 122,
+    "nombre_completo": "ROZO-EL OVERO",
+    "origen": "ROZO",
+    "destino": "EL OVERO",
+    "es_segmento_via": false,
+    "precio_tiquete": 25100,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": null
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 123,
+    "nombre_completo": "ROZO-LA PAILA",
+    "origen": "ROZO",
+    "destino": "LA PAILA",
+    "es_segmento_via": false,
+    "precio_tiquete": 26000,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": null
+      },
+      "destino": {
+        "fijo": "(602) 2034193",
+        "celular": "3217759133"
+      }
+    }
+  },
+  {
+    "id": 124,
+    "nombre_completo": "ROZO-ROLDANILLO",
+    "origen": "ROZO",
+    "destino": "ROLDANILLO",
+    "es_segmento_via": false,
+    "precio_tiquete": 31800,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": null
+      },
+      "destino": {
+        "fijo": "(602) 2299550 – (602) 2294327",
+        "celular": "3206655698"
+      }
+    }
+  },
+  {
+    "id": 125,
+    "nombre_completo": "ROZO-ZARZAL",
+    "origen": "ROZO",
+    "destino": "ZARZAL",
+    "es_segmento_via": false,
+    "precio_tiquete": 32800,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": null
+      },
+      "destino": {
+        "fijo": "(602) 2035207",
+        "celular": "3217790471"
+      }
+    }
+  },
+  {
+    "id": 126,
+    "nombre_completo": "TULUÁ-ANDALUCIA",
+    "origen": "TULUÁ",
+    "destino": "ANDALUCIA",
+    "es_segmento_via": false,
+    "precio_tiquete": 17800,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": "3185781413"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": "3215252796"
+      }
+    }
+  },
+  {
+    "id": 127,
+    "nombre_completo": "TULUÁ-ARMENIA",
+    "origen": "TULUÁ",
+    "destino": "ARMENIA",
+    "es_segmento_via": false,
+    "precio_tiquete": 24000,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": "3185781413"
+      },
+      "destino": {
+        "fijo": "(606) 7371765",
+        "celular": "3217720147"
+      }
+    }
+  },
+  {
+    "id": 128,
+    "nombre_completo": "TULUÁ-BUGALAGRANDE",
+    "origen": "TULUÁ",
+    "destino": "BUGALAGRANDE",
+    "es_segmento_via": false,
+    "precio_tiquete": 17800,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": "3185781413"
+      },
+      "destino": {
+        "fijo": "(602) 2265891",
+        "celular": "3104638595"
+      }
+    }
+  },
+  {
+    "id": 129,
+    "nombre_completo": "TULUÁ-CALI",
+    "origen": "TULUÁ",
+    "destino": "CALI",
+    "es_segmento_via": false,
+    "precio_tiquete": 22500,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": "3185781413"
+      },
+      "destino": {
+        "fijo": "(602) 6618809",
+        "celular": "3108309710"
+      }
+    }
+  },
+  {
+    "id": 130,
+    "nombre_completo": "TULUÁ-CARTAGO",
+    "origen": "TULUÁ",
+    "destino": "CARTAGO",
+    "es_segmento_via": false,
+    "precio_tiquete": 25600,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": "3185781413"
+      },
+      "destino": {
+        "fijo": "(602) 2144712 – (602) 2176227",
+        "celular": "3217795909"
+      }
+    }
+  },
+  {
+    "id": 131,
+    "nombre_completo": "TULUÁ-EL CERRITO",
+    "origen": "TULUÁ",
+    "destino": "EL CERRITO",
+    "es_segmento_via": false,
+    "precio_tiquete": 24000,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": "3185781413"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 132,
+    "nombre_completo": "TULUÁ-LA PAILA",
+    "origen": "TULUÁ",
+    "destino": "LA PAILA",
+    "es_segmento_via": false,
+    "precio_tiquete": 17800,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": "3185781413"
+      },
+      "destino": {
+        "fijo": "(602) 2034193",
+        "celular": "3217759133"
+      }
+    }
+  },
+  {
+    "id": 133,
+    "nombre_completo": "TULUÁ-LA URIBE",
+    "origen": "TULUÁ",
+    "destino": "LA URIBE",
+    "es_segmento_via": false,
+    "precio_tiquete": 21800,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": "3185781413"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 134,
+    "nombre_completo": "TULUÁ-LA VICTORIA",
+    "origen": "TULUÁ",
+    "destino": "LA VICTORIA",
+    "es_segmento_via": false,
+    "precio_tiquete": 18600,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": "3185781413"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 135,
+    "nombre_completo": "TULUÁ-OBANDO",
+    "origen": "TULUÁ",
+    "destino": "OBANDO",
+    "es_segmento_via": false,
+    "precio_tiquete": 17800,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": "3185781413"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": "3113763322"
+      }
+    }
+  },
+  {
+    "id": 136,
+    "nombre_completo": "TULUÁ-PEREIRA",
+    "origen": "TULUÁ",
+    "destino": "PEREIRA",
+    "es_segmento_via": false,
+    "precio_tiquete": 34900,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": "3185781413"
+      },
+      "destino": {
+        "fijo": "(606) 3212919",
+        "celular": "3177504145"
+      }
+    }
+  },
+  {
+    "id": 137,
+    "nombre_completo": "TULUÁ-ROLDANILLO",
+    "origen": "TULUÁ",
+    "destino": "ROLDANILLO",
+    "es_segmento_via": false,
+    "precio_tiquete": 21700,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": "3185781413"
+      },
+      "destino": {
+        "fijo": "(602) 2299550 – (602) 2294327",
+        "celular": "3206655698"
+      }
+    }
+  },
+  {
+    "id": 138,
+    "nombre_completo": "TULUÁ-ZARZAL",
+    "origen": "TULUÁ",
+    "destino": "ZARZAL",
+    "es_segmento_via": false,
+    "precio_tiquete": 20000,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": "3185781413"
+      },
+      "destino": {
+        "fijo": "(602) 2035207",
+        "celular": "3217790471"
+      }
+    }
+  },
+  {
+    "id": 139,
+    "nombre_completo": "ZARAGOZA-ANDALUCIA",
+    "origen": "ZARAGOZA",
+    "destino": "ANDALUCIA",
+    "es_segmento_via": false,
+    "precio_tiquete": 22500,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": null
+      },
+      "destino": {
+        "fijo": null,
+        "celular": "3215252796"
+      }
+    }
+  },
+  {
+    "id": 140,
+    "nombre_completo": "ZARAGOZA-BUGALAGRANDE",
+    "origen": "ZARAGOZA",
+    "destino": "BUGALAGRANDE",
+    "es_segmento_via": false,
+    "precio_tiquete": 22500,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": null
+      },
+      "destino": {
+        "fijo": "(602) 2265891",
+        "celular": "3104638595"
+      }
+    }
+  },
+  {
+    "id": 141,
+    "nombre_completo": "ZARAGOZA-TULUÁ",
+    "origen": "ZARAGOZA",
+    "destino": "TULUÁ",
+    "es_segmento_via": false,
+    "precio_tiquete": 22500,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": null,
+        "celular": null
+      },
+      "destino": {
+        "fijo": null,
+        "celular": "3185781413"
+      }
+    }
+  },
+  {
+    "id": 142,
+    "nombre_completo": "ZARZAL (TTO)-LA UNIÓN",
+    "origen": "ZARZAL (TTO)",
+    "destino": "LA UNIÓN",
+    "es_segmento_via": false,
+    "precio_tiquete": 27000,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2035207",
+        "celular": "3217790471"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": "3146219248"
+      }
+    }
+  },
+  {
+    "id": 143,
+    "nombre_completo": "ZARZAL-ANDALUCIA",
+    "origen": "ZARZAL",
+    "destino": "ANDALUCIA",
+    "es_segmento_via": false,
+    "precio_tiquete": 12100,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2035207",
+        "celular": "3217790471"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": "3215252796"
+      }
+    }
+  },
+  {
+    "id": 144,
+    "nombre_completo": "ZARZAL-ARMENIA",
+    "origen": "ZARZAL",
+    "destino": "ARMENIA",
+    "es_segmento_via": false,
+    "precio_tiquete": 24400,
+    "horario_descripcion": "5:00 A.M, 6:30 A.M, 8:30 A.M, 10:30 A.M, 12:30 P.M, 2:30 P.M, 4:30 P.M, 6:30 P.M",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2035207",
+        "celular": "3217790471"
+      },
+      "destino": {
+        "fijo": "(606) 7371765",
+        "celular": "3217720147"
+      }
+    }
+  },
+  {
+    "id": 145,
+    "nombre_completo": "ZARZAL-ARMENIA",
+    "origen": "ZARZAL",
+    "destino": "ARMENIA",
+    "es_segmento_via": false,
+    "precio_tiquete": 20600,
+    "horario_descripcion": "5:00 A.M, 6:30 A.M, 8:30 A.M, 10:30 A.M, 12:30 P.M, 2:30 P.M, 4:30 P.M, 6:30 P.M",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2035207",
+        "celular": "3217790471"
+      },
+      "destino": {
+        "fijo": "(606) 7371765",
+        "celular": "3217720147"
+      }
+    }
+  },
+  {
+    "id": 146,
+    "nombre_completo": "ZARZAL-BUGA",
+    "origen": "ZARZAL",
+    "destino": "BUGA",
+    "es_segmento_via": false,
+    "precio_tiquete": 21700,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2035207",
+        "celular": "3217790471"
+      },
+      "destino": {
+        "fijo": "(602) 2373995",
+        "celular": "3217728904"
+      }
+    }
+  },
+  {
+    "id": 147,
+    "nombre_completo": "ZARZAL-BUGALAGRANDE",
+    "origen": "ZARZAL",
+    "destino": "BUGALAGRANDE",
+    "es_segmento_via": false,
+    "precio_tiquete": 12100,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2035207",
+        "celular": "3217790471"
+      },
+      "destino": {
+        "fijo": "(602) 2265891",
+        "celular": "3104638595"
+      }
+    }
+  },
+  {
+    "id": 148,
+    "nombre_completo": "ZARZAL-CALI",
+    "origen": "ZARZAL",
+    "destino": "CALI",
+    "es_segmento_via": false,
+    "precio_tiquete": 33100,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2035207",
+        "celular": "3217790471"
+      },
+      "destino": {
+        "fijo": "(602) 6618809",
+        "celular": "3108309710"
+      }
+    }
+  },
+  {
+    "id": 149,
+    "nombre_completo": "ZARZAL-CARTAGO",
+    "origen": "ZARZAL",
+    "destino": "CARTAGO",
+    "es_segmento_via": false,
+    "precio_tiquete": 14300,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2035207",
+        "celular": "3217790471"
+      },
+      "destino": {
+        "fijo": "(602) 2144712 – (602) 2176227",
+        "celular": "3217795909"
+      }
+    }
+  },
+  {
+    "id": 150,
+    "nombre_completo": "ZARZAL-CERRITOS",
+    "origen": "ZARZAL",
+    "destino": "CERRITOS",
+    "es_segmento_via": false,
+    "precio_tiquete": 18100,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2035207",
+        "celular": "3217790471"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 151,
+    "nombre_completo": "ZARZAL-CERRITOS (LP)",
+    "origen": "ZARZAL",
+    "destino": "CERRITOS (LP)",
+    "es_segmento_via": false,
+    "precio_tiquete": 20000,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2035207",
+        "celular": "3217790471"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 152,
+    "nombre_completo": "ZARZAL-EL CERRITO",
+    "origen": "ZARZAL",
+    "destino": "EL CERRITO",
+    "es_segmento_via": false,
+    "precio_tiquete": 26100,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2035207",
+        "celular": "3217790471"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 153,
+    "nombre_completo": "ZARZAL-LA PAILA",
+    "origen": "ZARZAL",
+    "destino": "LA PAILA",
+    "es_segmento_via": false,
+    "precio_tiquete": 5000,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2035207",
+        "celular": "3217790471"
+      },
+      "destino": {
+        "fijo": "(602) 2034193",
+        "celular": "3217759133"
+      }
+    }
+  },
+  {
+    "id": 154,
+    "nombre_completo": "ZARZAL-LA UNIÓN",
+    "origen": "ZARZAL",
+    "destino": "LA UNIÓN",
+    "es_segmento_via": false,
+    "precio_tiquete": 5000,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2035207",
+        "celular": "3217790471"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": "3146219248"
+      }
+    }
+  },
+  {
+    "id": 155,
+    "nombre_completo": "ZARZAL-LA URIBE",
+    "origen": "ZARZAL",
+    "destino": "LA URIBE",
+    "es_segmento_via": false,
+    "precio_tiquete": 17800,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2035207",
+        "celular": "3217790471"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 156,
+    "nombre_completo": "ZARZAL-LA VICTORIA",
+    "origen": "ZARZAL",
+    "destino": "LA VICTORIA",
+    "es_segmento_via": false,
+    "precio_tiquete": 13200,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2035207",
+        "celular": "3217790471"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": null
+      }
+    }
+  },
+  {
+    "id": 157,
+    "nombre_completo": "ZARZAL-OBANDO",
+    "origen": "ZARZAL",
+    "destino": "OBANDO",
+    "es_segmento_via": false,
+    "precio_tiquete": 8500,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2035207",
+        "celular": "3217790471"
+      },
+      "destino": {
+        "fijo": null,
+        "celular": "3113763322"
+      }
+    }
+  },
+  {
+    "id": 158,
+    "nombre_completo": "ZARZAL-PEREIRA",
+    "origen": "ZARZAL",
+    "destino": "PEREIRA",
+    "es_segmento_via": false,
+    "precio_tiquete": 20700,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2035207",
+        "celular": "3217790471"
+      },
+      "destino": {
+        "fijo": "(606) 3212919",
+        "celular": "3177504145"
+      }
+    }
+  },
+  {
+    "id": 159,
+    "nombre_completo": "ZARZAL-PEREIRA (LP)",
+    "origen": "ZARZAL",
+    "destino": "PEREIRA (LP)",
+    "es_segmento_via": false,
+    "precio_tiquete": 29000,
+    "horario_descripcion": "Comunicarse con oficina para conocer horarios.",
+    "tiempos_estimados": {
+      "duracion": "Por definir"
+    },
+    "contactos": {
+      "origen": {
+        "fijo": "(602) 2035207",
+        "celular": "3217790471"
+      },
+      "destino": {
+        "fijo": "(606) 3212919",
+        "celular": "3177504145"
+      }
+    }
+  }
+]

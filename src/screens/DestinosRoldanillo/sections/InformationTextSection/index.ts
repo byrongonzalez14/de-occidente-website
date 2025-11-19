@@ -1,0 +1,1 @@
+export { InformationTextSection } from "./InformationTextSection";

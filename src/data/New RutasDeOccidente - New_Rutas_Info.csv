@@ -1,0 +1,160 @@
+id,RUTA_NOMBRE_COMPLETO,PRECIO_TIQUETE,HORARIO,ES_SEGMENTO_VIA,ORIGEN,SEGMENTO,DESTINO,TEL_ORIGEN_FIJO,TEL_ORIGEN_CEL,TEL_SEGMENTO_FIJO,TEL_SEGMENTO_CEL,TEL_DESTINO_FIJO,TEL_DESTINO_CEL
+1,ANDALUCIA-CALI,"$25,400",Comunicarse con oficina para conocer horarios.,NO,ANDALUCIA,,CALI,,3215252796,,,(602) 6618809,3108309710
+2,ANDALUCIA-CARTAGO,"$26,600",Comunicarse con oficina para conocer horarios.,NO,ANDALUCIA,,CARTAGO,,3215252796,,,(602) 2144712 – (602) 2176227,3217795909
+3,ANDALUCIA-OBANDO,"$21,800",Comunicarse con oficina para conocer horarios.,NO,ANDALUCIA,,OBANDO,,3215252796,,,,3113763322
+4,ANSERMANUEVO-BUGA,"$31,900",Comunicarse con oficina para conocer horarios.,NO,ANSERMANUEVO,,BUGA,,,,,(602) 2373995,3217728904
+5,ANSERMANUEVO-CALI,"$43,600",Comunicarse con oficina para conocer horarios.,NO,ANSERMANUEVO,,CALI,,,,,(602) 6618809,3108309710
+6,ARMENIA-ZARZAL,,"6:00 A.M, 7:30 A.M, 9:00 A.M, 11:00 A.M, 1:00 P.M, 3:00 P.M, 5:00 P.M, 7:00 P.M",NO,ARMENIA,,ZARZAL,(606) 7371765,3217720147,,,(602) 2035207,3217790471
+7,BOLIVAR-AGUASLINDAS,"$19,000",Comunicarse con oficina para conocer horarios.,NO,BOLIVAR,,AGUASLINDAS,,,,,,
+8,BOLIVAR-BETANIA,"$20,700",Comunicarse con oficina para conocer horarios.,NO,BOLIVAR,,BETANIA,,,,,,
+9,BOLIVAR-EL FUSIL,"$11,400",Comunicarse con oficina para conocer horarios.,NO,BOLIVAR,,EL FUSIL,,,,,,
+10,BOLIVAR-EL HOBO,"$4,300",Comunicarse con oficina para conocer horarios.,NO,BOLIVAR,,EL HOBO,,,,,,
+11,BOLIVAR-NARANJAL,"$15,100",Comunicarse con oficina para conocer horarios.,NO,BOLIVAR,,NARANJAL,,,,,,
+12,BOLIVAR-PRIMAVERA,"$8,200",Comunicarse con oficina para conocer horarios.,NO,BOLIVAR,,PRIMAVERA,,,,,,
+13,BOLIVAR-ROLDANILLO,"$4,700",Comunicarse con oficina para conocer horarios.,NO,BOLIVAR,,ROLDANILLO,,,,,(602) 2299550 – (602) 2294327,3206655698
+14,BUGALAGRANDE-VARIANTE-CARTAGO (C),"$22,500",Comunicarse con oficina para conocer horarios.,SI,BUGALAGRANDE,VARIANTE,CARTAGO (C),(602) 2265891,3104638595,,,(602) 2144712 – (602) 2176227,3217795909
+15,BUGALAGRANDE-VARIANTE-CARTAGO (PER),"$26,900",Comunicarse con oficina para conocer horarios.,SI,BUGALAGRANDE,VARIANTE,CARTAGO (PER),(602) 2265891,3104638595,,,(602) 2144712 – (602) 2176227,3217795909
+16,BUGA-ANDALUCIA,"$17,800",Comunicarse con oficina para conocer horarios.,NO,BUGA,,ANDALUCIA,(602) 2373995,3217728904,,,,3215252796
+17,BUGA-ANSERMANUEVO,"$31,900",Comunicarse con oficina para conocer horarios.,NO,BUGA,,ANSERMANUEVO,(602) 2373995,3217728904,,,,
+18,BUGA-BUGALAGRANDE,"$17,800",Comunicarse con oficina para conocer horarios.,NO,BUGA,,BUGALAGRANDE,(602) 2373995,3217728904,,,(602) 2265891,3104638595
+19,BUGA-LA PAILA,"$18,600",Comunicarse con oficina para conocer horarios.,NO,BUGA,,LA PAILA,(602) 2373995,3217728904,,,(602) 2034193,3217759133
+20,BUGA-LA URIBE,"$21,800",Comunicarse con oficina para conocer horarios.,NO,BUGA,,LA URIBE,(602) 2373995,3217728904,,,,
+21,BUGA-LA VICTORIA,"$27,800",Comunicarse con oficina para conocer horarios.,NO,BUGA,,LA VICTORIA,(602) 2373995,3217728904,,,,
+22,BUGA-OBANDO,"$24,500",Comunicarse con oficina para conocer horarios.,NO,BUGA,,OBANDO,(602) 2373995,3217728904,,,,3113763322
+23,BUGA-ROLDANILLO,"$21,700",Comunicarse con oficina para conocer horarios.,NO,BUGA,,ROLDANILLO,(602) 2373995,3217728904,,,(602) 2299550 – (602) 2294327,3206655698
+24,BUGA-ZARZAL (P),"$34,900",Comunicarse con oficina para conocer horarios.,NO,BUGA,,ZARZAL (P),(602) 2373995,3217728904,,,(602) 2035207,3217790471
+25,BUGALAGRANDE-CALI,"$25,400",Comunicarse con oficina para conocer horarios.,NO,BUGALAGRANDE,,CALI,(602) 2265891,3104638595,,,(602) 6618809,3108309710
+26,CALI-BUGALAGRANDE-CARTAGO (C),"$25,600",Comunicarse con oficina para conocer horarios.,SI,CALI,BUGALAGRANDE,CARTAGO (C),(602) 6618809,3108309710,(602) 2265891,3104638595,(602) 2144712 – (602) 2176227,3217795909
+27,CALI-BUGALAGRANDE-CARTAGO (PER),"$28,600",Comunicarse con oficina para conocer horarios.,SI,CALI,BUGALAGRANDE,CARTAGO (PER),(602) 6618809,3108309710,(602) 2265891,3104638595,(602) 2144712 – (602) 2176227,3217795909
+28,CALI-BUGALAGRANDE-OBANDO,"$17,800",Comunicarse con oficina para conocer horarios.,SI,CALI,BUGALAGRANDE,OBANDO,(602) 6618809,3108309710,(602) 2265891,3104638595,,3113763322
+29,CALI-ANDALUCIA,"$25,400",Comunicarse con oficina para conocer horarios.,NO,CALI,,ANDALUCIA,(602) 6618809,3108309710,,,,3215252796
+30,CALI-BUGA-CARTAGO,"$28,400",Comunicarse con oficina para conocer horarios.,SI,CALI,BUGA,CARTAGO,(602) 6618809,3108309710,(602) 2373995,3217728904,(602) 2144712 – (602) 2176227,3217795909
+31,CALI-BUGA-CARTAGO (PER),"$34,900",Comunicarse con oficina para conocer horarios.,SI,CALI,BUGA,CARTAGO (PER),(602) 6618809,3108309710,(602) 2373995,3217728904,(602) 2144712 – (602) 2176227,3217795909
+32,CALI-BUGALAGRANDE,"$25,400",Comunicarse con oficina para conocer horarios.,NO,CALI,,BUGALAGRANDE,(602) 6618809,3108309710,,,(602) 2265891,3104638595
+33,CALI-EL CERRITO,"$19,600",Comunicarse con oficina para conocer horarios.,NO,CALI,,EL CERRITO,(602) 6618809,3108309710,,,,
+34,CALI-EL OVERO,"$25,100",Comunicarse con oficina para conocer horarios.,NO,CALI,,EL OVERO,(602) 6618809,3108309710,,,,
+35,CALI-LA PAILA,"$28,400",Comunicarse con oficina para conocer horarios.,NO,CALI,,LA PAILA,(602) 6618809,3108309710,,,(602) 2034193,3217759133
+36,CALI-LA URIBE,"$25,100",Comunicarse con oficina para conocer horarios.,NO,CALI,,LA URIBE,(602) 6618809,3108309710,,,,
+37,CALI-LA VICTORIA,"$32,000",Comunicarse con oficina para conocer horarios.,NO,CALI,,LA VICTORIA,(602) 6618809,3108309710,,,,
+38,CALI-ROLDANILLO,"$35,400",Comunicarse con oficina para conocer horarios.,NO,CALI,,ROLDANILLO,(602) 6618809,3108309710,,,(602) 2299550 – (602) 2294327,3206655698
+39,CALI-TULUÁ-CARTAGO,"$25,600",Comunicarse con oficina para conocer horarios.,SI,CALI,TULUÁ,CARTAGO,(602) 6618809,3108309710,,3185781413,(602) 2144712 – (602) 2176227,3217795909
+40,CALI-ZARZAL,"$33,100",Comunicarse con oficina para conocer horarios.,NO,CALI,,ZARZAL,(602) 6618809,3108309710,,,(602) 2035207,3217790471
+41,CALI-ZARZAL BATALLÓN,"$29,900",Comunicarse con oficina para conocer horarios.,NO,CALI,,ZARZAL BATALLÓN,(602) 6618809,3108309710,,,(602) 2035207,3217790471
+42,CARTAGO-BUGALAGRANDE,"$22,500",Comunicarse con oficina para conocer horarios.,NO,CARTAGO,,BUGALAGRANDE,(602) 2144712 – (602) 2176227,3217795909,,,(602) 2265891,3104638595
+43,CARTAGO-BUGA,"$28,400",Comunicarse con oficina para conocer horarios.,NO,CARTAGO,,BUGA,(602) 2144712 – (602) 2176227,3217795909,,,(602) 2373995,3217728904
+44,CARTAGO-CALI,"$40,800",Comunicarse con oficina para conocer horarios.,NO,CARTAGO,,CALI,(602) 2144712 – (602) 2176227,3217795909,,,(602) 6618809,3108309710
+45,CARTAGO-EL CERRITO,"$32,400",Comunicarse con oficina para conocer horarios.,NO,CARTAGO,,EL CERRITO,(602) 2144712 – (602) 2176227,3217795909,,,,
+46,CARTAGO-LA PAILA,"$17,800",Comunicarse con oficina para conocer horarios.,NO,CARTAGO,,LA PAILA,(602) 2144712 – (602) 2176227,3217795909,,,(602) 2034193,3217759133
+47,CARTAGO-LA URIBE,"$18,600",Comunicarse con oficina para conocer horarios.,NO,CARTAGO,,LA URIBE,(602) 2144712 – (602) 2176227,3217795909,,,,
+48,CERRITOS-LA VICTORIA,"$14,000",Comunicarse con oficina para conocer horarios.,NO,CERRITOS,,LA VICTORIA,,,,,,
+49,CERRITOS-ZARAGOZA,"$9,000",Comunicarse con oficina para conocer horarios.,NO,CERRITOS,,ZARAGOZA,,,,,,
+50,LA PAILA-ARMENIA,"$15,300",Comunicarse con oficina para conocer horarios.,NO,LA PAILA,,ARMENIA,(602) 2034193,3217759133,,,(606) 7371765,3217720147
+51,LA PAILA-BUGA,"$18,400",Comunicarse con oficina para conocer horarios.,NO,LA PAILA,,BUGA,(602) 2034193,3217759133,,,(602) 2373995,3217728904
+52,LA PAILA-CALI,"$28,400",Comunicarse con oficina para conocer horarios.,NO,LA PAILA,,CALI,(602) 2034193,3217759133,,,(602) 6618809,3108309710
+53,LA PAILA-CARTAGO,"$17,800",Comunicarse con oficina para conocer horarios.,NO,LA PAILA,,CARTAGO,(602) 2034193,3217759133,,,(602) 2144712 – (602) 2176227,3217795909
+54,LA PAILA-CERRITOS,"$18,100",Comunicarse con oficina para conocer horarios.,NO,LA PAILA,,CERRITOS,(602) 2034193,3217759133,,,,
+55,LA PAILA-LA UNIÓN,"$5,000",Comunicarse con oficina para conocer horarios.,NO,LA PAILA,,LA UNIÓN,(602) 2034193,3217759133,,,,3146219248
+56,LA PAILA-LA VICTORIA,"$12,400",Comunicarse con oficina para conocer horarios.,NO,LA PAILA,,LA VICTORIA,(602) 2034193,3217759133,,,,
+57,LA PAILA-OBANDO,"$10,400",Comunicarse con oficina para conocer horarios.,NO,LA PAILA,,OBANDO,(602) 2034193,3217759133,,,,3113763322
+58,LA PAILA-PEREIRA,"$20,600",Comunicarse con oficina para conocer horarios.,NO,LA PAILA,,PEREIRA,(602) 2034193,3217759133,,,(606) 3212919,3177504145
+59,LA PAILA-ZARZAL,"$5,000",Comunicarse con oficina para conocer horarios.,NO,LA PAILA,,ZARZAL,(602) 2034193,3217759133,,,(602) 2035207,3217790471
+60,LA UNIÓN-CERRITOS,"$23,100",Comunicarse con oficina para conocer horarios.,NO,LA UNIÓN,,CERRITOS,,3146219248,,,,
+61,LA UNIÓN-HIGUERONCITO-SANTA RITA,"$4,500",Comunicarse con oficina para conocer horarios.,SI,LA UNIÓN,HIGUERONCITO,SANTA RITA,,3146219248,,,,
+62,LA UNIÓN-HIGUERONCITO,"$4,200",Comunicarse con oficina para conocer horarios.,NO,LA UNIÓN,,HIGUERONCITO,,3146219248,,,,
+63,LA UNIÓN-PEREIRA,"$24,900",Comunicarse con oficina para conocer horarios.,NO,LA UNIÓN,,PEREIRA,,3146219248,,,(606) 3212919,3177504145
+64,LA UNIÓN-PORTACHUELO,"$2,700",Comunicarse con oficina para conocer horarios.,NO,LA UNIÓN,,PORTACHUELO,,3146219248,,,,
+65,LA VICTORIA-ANDALUCIA,"$17,800",Comunicarse con oficina para conocer horarios.,NO,LA VICTORIA,,ANDALUCIA,,,,,,3215252796
+66,LA VICTORIA-ARMENIA,"$22,500",Comunicarse con oficina para conocer horarios.,NO,LA VICTORIA,,ARMENIA,,,,,(606) 7371765,3217720147
+67,LA VICTORIA-BUGALAGRANDE,"$17,800",Comunicarse con oficina para conocer horarios.,NO,LA VICTORIA,,BUGALAGRANDE,,,,,(602) 2265891,3104638595
+68,LA VICTORIA-CARTAGO,"$15,600",Comunicarse con oficina para conocer horarios.,NO,LA VICTORIA,,CARTAGO,,,,,(602) 2144712 – (602) 2176227,3217795909
+69,LA VICTORIA-CERRITOS,"$14,000",Comunicarse con oficina para conocer horarios.,NO,LA VICTORIA,,CERRITOS,,,,,,
+70,LA VICTORIA-OBANDO,"$12,100",Comunicarse con oficina para conocer horarios.,NO,LA VICTORIA,,OBANDO,,,,,,3113763322
+71,LA VICTORIA-PEREIRA,"$15,600",Comunicarse con oficina para conocer horarios.,NO,LA VICTORIA,,PEREIRA,,,,,(606) 3212919,3177504145
+72,LA VICTORIA-ROLDANILLO,"$16,100",Comunicarse con oficina para conocer horarios.,NO,LA VICTORIA,,ROLDANILLO,,,,,(602) 2299550 – (602) 2294327,3206655698
+73,LA VICTORIA-ZARAGOZA,"$9,000",Comunicarse con oficina para conocer horarios.,NO,LA VICTORIA,,ZARAGOZA,,,,,,
+74,LA VICTORIA-ZARZAL,"$13,200",Comunicarse con oficina para conocer horarios.,NO,LA VICTORIA,,ZARZAL,,,,,(602) 2035207,3217790471
+75,OBANDO-ANDALUCIA,"$19,600",Comunicarse con oficina para conocer horarios.,NO,OBANDO,,ANDALUCIA,,3113763322,,,,3215252796
+76,OBANDO-BUGA,"$24,500",Comunicarse con oficina para conocer horarios.,NO,OBANDO,,BUGA,,3113763322,,,(602) 2373995,3217728904
+77,OBANDO-CALI,"$36,800",Comunicarse con oficina para conocer horarios.,NO,OBANDO,,CALI,,3113763322,,,(602) 6618809,3108309710
+78,OBANDO-CARTAGO,"$7,500",Comunicarse con oficina para conocer horarios.,NO,OBANDO,,CARTAGO,,3113763322,,,(602) 2144712 – (602) 2176227,3217795909
+79,OBANDO-CERRITOS,"$10,700",Comunicarse con oficina para conocer horarios.,NO,OBANDO,,CERRITOS,,3113763322,,,,
+80,OBANDO-LA PAILA,"$10,400",Comunicarse con oficina para conocer horarios.,NO,OBANDO,,LA PAILA,,3113763322,,,(602) 2034193,3217759133
+81,OBANDO-LA UNIÓN,"$12,500",Comunicarse con oficina para conocer horarios.,NO,OBANDO,,LA UNIÓN,,3113763322,,,,3146219248
+82,OBANDO-LA URIBE,"$12,100",Comunicarse con oficina para conocer horarios.,NO,OBANDO,,LA URIBE,,3113763322,,,,
+83,OBANDO-PEREIRA,"$13,800",Comunicarse con oficina para conocer horarios.,NO,OBANDO,,PEREIRA,,3113763322,,,(606) 3212919,3177504145
+84,PEREIRA-LA UNIÓN,"$16,500",Comunicarse con oficina para conocer horarios.,NO,PEREIRA,,LA UNIÓN,(606) 3212919,3177504145,,,,3146219248
+85,PEREIRA-LA VICTORIA,"$15,600",Comunicarse con oficina para conocer horarios.,NO,PEREIRA,,LA VICTORIA,(606) 3212919,3177504145,,,,
+86,PEREIRA-ZARZAL (LURB),"$23,800",Comunicarse con oficina para conocer horarios.,NO,PEREIRA,,ZARZAL (LURB),(606) 3212919,3177504145,,,(602) 2035207,3217790471
+87,ROLDANI-LA MONTAÑUELA,"$9,300",Comunicarse con oficina para conocer horarios.,NO,ROLDANI,,LA MONTAÑUELA,,,,,,
+88,ROLDANILLO-ZARZAL (ESTUDIANTE),"$3,600",Comunicarse con oficina para conocer horarios.,NO,ROLDANILLO,,ZARZAL (ESTUDIANTE),(602) 2299550 – (602) 2294327,3206655698,,,(602) 2035207,3217790471
+89,ROLDANILLO-ZARZAL (INTERMEDIO),"$3,600",Comunicarse con oficina para conocer horarios.,NO,ROLDANILLO,,ZARZAL (INTERMEDIO),(602) 2299550 – (602) 2294327,3206655698,,,(602) 2035207,3217790471
+90,ROLDANILLO-AGUASLINDAS,"$22,600",Comunicarse con oficina para conocer horarios.,NO,ROLDANILLO,,AGUASLINDAS,(602) 2299550 – (602) 2294327,3206655698,,,,
+91,ROLDANILLO-BETANIA,"$27,200",Comunicarse con oficina para conocer horarios.,NO,ROLDANILLO,,BETANIA,(602) 2299550 – (602) 2294327,3206655698,,,,
+92,ROLDANILLO-BOLIVAR,"$4,700",Comunicarse con oficina para conocer horarios.,NO,ROLDANILLO,,BOLIVAR,(602) 2299550 – (602) 2294327,3206655698,,,,
+93,ROLDANILLO-BUGA,"$21,700",Comunicarse con oficina para conocer horarios.,NO,ROLDANILLO,,BUGA,(602) 2299550 – (602) 2294327,3206655698,,,(602) 2373995,3217728904
+94,ROLDANILLO-CAJAMARCA,"$10,700",Comunicarse con oficina para conocer horarios.,NO,ROLDANILLO,,CAJAMARCA,(602) 2299550 – (602) 2294327,3206655698,,,,
+95,ROLDANILLO-CALI,"$35,400",Comunicarse con oficina para conocer horarios.,NO,ROLDANILLO,,CALI,(602) 2299550 – (602) 2294327,3206655698,,,(602) 6618809,3108309710
+96,ROLDANILLO-CARTAGO,"$17,700",Comunicarse con oficina para conocer horarios.,NO,ROLDANILLO,,CARTAGO,(602) 2299550 – (602) 2294327,3206655698,,,(602) 2144712 – (602) 2176227,3217795909
+97,ROLDANILLO-CASCARILLO,"$9,500",Comunicarse con oficina para conocer horarios.,NO,ROLDANILLO,,CASCARILLO,(602) 2299550 – (602) 2294327,3206655698,,,,
+98,ROLDANILLO-CASERES,"$8,100",Comunicarse con oficina para conocer horarios.,NO,ROLDANILLO,,CASERES,(602) 2299550 – (602) 2294327,3206655698,,,,
+99,ROLDANILLO-CRUCERO,"$14,400",Comunicarse con oficina para conocer horarios.,NO,ROLDANILLO,,CRUCERO,(602) 2299550 – (602) 2294327,3206655698,,,,
+100,ROLDANILLO-EL CERRITO,"$26,100",Comunicarse con oficina para conocer horarios.,NO,ROLDANILLO,,EL CERRITO,(602) 2299550 – (602) 2294327,3206655698,,,,
+101,ROLDANILLO-EL DOVIO,"$12,500",Comunicarse con oficina para conocer horarios.,NO,ROLDANILLO,,EL DOVIO,(602) 2299550 – (602) 2294327,3206655698,,,,
+102,ROLDANILLO-EL FUSIL,"$16,200",Comunicarse con oficina para conocer horarios.,NO,ROLDANILLO,,EL FUSIL,(602) 2299550 – (602) 2294327,3206655698,,,,
+103,ROLDANILLO-EL HOBO,"$2,700",Comunicarse con oficina para conocer horarios.,NO,ROLDANILLO,,EL HOBO,(602) 2299550 – (602) 2294327,3206655698,,,,
+104,ROLDANILLO-EL SILENCIO,"$10,300",Comunicarse con oficina para conocer horarios.,NO,ROLDANILLO,,EL SILENCIO,(602) 2299550 – (602) 2294327,3206655698,,,,
+105,ROLDANILLO-GUACAS,"$11,300",Comunicarse con oficina para conocer horarios.,NO,ROLDANILLO,,GUACAS,(602) 2299550 – (602) 2294327,3206655698,,,,
+106,ROLDANILLO-LA AGUADA,"$11,500",Comunicarse con oficina para conocer horarios.,NO,ROLDANILLO,,LA AGUADA,(602) 2299550 – (602) 2294327,3206655698,,,,
+107,ROLDANILLO-LA ARMENIA,"$9,300",Comunicarse con oficina para conocer horarios.,NO,ROLDANILLO,,LA ARMENIA,(602) 2299550 – (602) 2294327,3206655698,,,,
+108,ROLDANILLO-LA PEÑA,"$8,300",Comunicarse con oficina para conocer horarios.,NO,ROLDANILLO,,LA PEÑA,(602) 2299550 – (602) 2294327,3206655698,,,,
+109,ROLDANILLO-LA TULIA,"$10,800",Comunicarse con oficina para conocer horarios.,NO,ROLDANILLO,,LA TULIA,(602) 2299550 – (602) 2294327,3206655698,,,,
+110,ROLDANILLO-LA UNIÓN,"$5,600",Comunicarse con oficina para conocer horarios.,NO,ROLDANILLO,,LA UNIÓN,(602) 2299550 – (602) 2294327,3206655698,,,,3146219248
+111,ROLDANILLO-MONTECRISTO,"$5,700",Comunicarse con oficina para conocer horarios.,NO,ROLDANILLO,,MONTECRISTO,(602) 2299550 – (602) 2294327,3206655698,,,,
+112,ROLDANILLO-NARANJAL,"$19,700",Comunicarse con oficina para conocer horarios.,NO,ROLDANILLO,,NARANJAL,(602) 2299550 – (602) 2294327,3206655698,,,,
+113,ROLDANILLO-OBANDO,"$12,500",Comunicarse con oficina para conocer horarios.,NO,ROLDANILLO,,OBANDO,(602) 2299550 – (602) 2294327,3206655698,,,,3113763322
+114,ROLDANILLO-PORTACHUELO,"$4,500",Comunicarse con oficina para conocer horarios.,NO,ROLDANILLO,,PORTACHUELO,(602) 2299550 – (602) 2294327,3206655698,,,,
+115,ROLDANILLO-PRIMAVERA,"$12,500",Comunicarse con oficina para conocer horarios.,NO,ROLDANILLO,,PRIMAVERA,(602) 2299550 – (602) 2294327,3206655698,,,,
+116,ROLDANILLO-RICAURTE,"$7,800",Comunicarse con oficina para conocer horarios.,NO,ROLDANILLO,,RICAURTE,(602) 2299550 – (602) 2294327,3206655698,,,,
+117,ROLDANILLO-SANTA RITA,"$2,900",Comunicarse con oficina para conocer horarios.,NO,ROLDANILLO,,SANTA RITA,(602) 2299550 – (602) 2294327,3206655698,,,,
+118,ROLDANILLO-ZARZAL,"$4,300",Comunicarse con oficina para conocer horarios.,NO,ROLDANILLO,,ZARZAL,(602) 2299550 – (602) 2294327,3206655698,,,(602) 2035207,3217790471
+119,ROZO-ANDALUCIA,"$25,100",Comunicarse con oficina para conocer horarios.,NO,ROZO,,ANDALUCIA,,,,,,3215252796
+120,ROZO-BUGALAGRANDE,"$25,100",Comunicarse con oficina para conocer horarios.,NO,ROZO,,BUGALAGRANDE,,,,,(602) 2265891,3104638595
+121,ROZO-CARTAGO,"$35,900",Comunicarse con oficina para conocer horarios.,NO,ROZO,,CARTAGO,,,,,(602) 2144712 – (602) 2176227,3217795909
+122,ROZO-EL OVERO,"$25,100",Comunicarse con oficina para conocer horarios.,NO,ROZO,,EL OVERO,,,,,,
+123,ROZO-LA PAILA,"$26,000",Comunicarse con oficina para conocer horarios.,NO,ROZO,,LA PAILA,,,,,(602) 2034193,3217759133
+124,ROZO-ROLDANILLO,"$31,800",Comunicarse con oficina para conocer horarios.,NO,ROZO,,ROLDANILLO,,,,,(602) 2299550 – (602) 2294327,3206655698
+125,ROZO-ZARZAL,"$32,800",Comunicarse con oficina para conocer horarios.,NO,ROZO,,ZARZAL,,,,,(602) 2035207,3217790471
+126,TULUÁ-ANDALUCIA,"$17,800",Comunicarse con oficina para conocer horarios.,NO,TULUÁ,,ANDALUCIA,,3185781413,,,,3215252796
+127,TULUÁ-ARMENIA,"$24,000",Comunicarse con oficina para conocer horarios.,NO,TULUÁ,,ARMENIA,,3185781413,,,(606) 7371765,3217720147
+128,TULUÁ-BUGALAGRANDE,"$17,800",Comunicarse con oficina para conocer horarios.,NO,TULUÁ,,BUGALAGRANDE,,3185781413,,,(602) 2265891,3104638595
+129,TULUÁ-CALI,"$22,500",Comunicarse con oficina para conocer horarios.,NO,TULUÁ,,CALI,,3185781413,,,(602) 6618809,3108309710
+130,TULUÁ-CARTAGO,"$25,600",Comunicarse con oficina para conocer horarios.,NO,TULUÁ,,CARTAGO,,3185781413,,,(602) 2144712 – (602) 2176227,3217795909
+131,TULUÁ-EL CERRITO,"$24,000",Comunicarse con oficina para conocer horarios.,NO,TULUÁ,,EL CERRITO,,3185781413,,,,
+132,TULUÁ-LA PAILA,"$17,800",Comunicarse con oficina para conocer horarios.,NO,TULUÁ,,LA PAILA,,3185781413,,,(602) 2034193,3217759133
+133,TULUÁ-LA URIBE,"$21,800",Comunicarse con oficina para conocer horarios.,NO,TULUÁ,,LA URIBE,,3185781413,,,,
+134,TULUÁ-LA VICTORIA,"$18,600",Comunicarse con oficina para conocer horarios.,NO,TULUÁ,,LA VICTORIA,,3185781413,,,,
+135,TULUÁ-OBANDO,"$17,800",Comunicarse con oficina para conocer horarios.,NO,TULUÁ,,OBANDO,,3185781413,,,,3113763322
+136,TULUÁ-PEREIRA,"$34,900",Comunicarse con oficina para conocer horarios.,NO,TULUÁ,,PEREIRA,,3185781413,,,(606) 3212919,3177504145
+137,TULUÁ-ROLDANILLO,"$21,700",Comunicarse con oficina para conocer horarios.,NO,TULUÁ,,ROLDANILLO,,3185781413,,,(602) 2299550 – (602) 2294327,3206655698
+138,TULUÁ-ZARZAL,"$20,000",Comunicarse con oficina para conocer horarios.,NO,TULUÁ,,ZARZAL,,3185781413,,,(602) 2035207,3217790471
+139,ZARAGOZA-ANDALUCIA,"$22,500",Comunicarse con oficina para conocer horarios.,NO,ZARAGOZA,,ANDALUCIA,,,,,,3215252796
+140,ZARAGOZA-BUGALAGRANDE,"$22,500",Comunicarse con oficina para conocer horarios.,NO,ZARAGOZA,,BUGALAGRANDE,,,,,(602) 2265891,3104638595
+141,ZARAGOZA-TULUÁ,"$22,500",Comunicarse con oficina para conocer horarios.,NO,ZARAGOZA,,TULUÁ,,,,,,3185781413
+142,ZARZAL (TTO)-LA UNIÓN,"$27,000",Comunicarse con oficina para conocer horarios.,NO,ZARZAL (TTO),,LA UNIÓN,(602) 2035207,3217790471,,,,3146219248
+143,ZARZAL-ANDALUCIA,"$12,100",Comunicarse con oficina para conocer horarios.,NO,ZARZAL,,ANDALUCIA,(602) 2035207,3217790471,,,,3215252796
+144,ZARZAL-ARMENIA,"$24,400","5:00 A.M, 6:30 A.M, 8:30 A.M, 10:30 A.M, 12:30 P.M, 2:30 P.M, 4:30 P.M, 6:30 P.M",NO,ZARZAL,,ARMENIA,(602) 2035207,3217790471,,,(606) 7371765,3217720147
+145,ZARZAL-ARMENIA,"$20,600","5:00 A.M, 6:30 A.M, 8:30 A.M, 10:30 A.M, 12:30 P.M, 2:30 P.M, 4:30 P.M, 6:30 P.M",NO,ZARZAL,,ARMENIA,(602) 2035207,3217790471,,,(606) 7371765,3217720147
+146,ZARZAL-BUGA,"$21,700",Comunicarse con oficina para conocer horarios.,NO,ZARZAL,,BUGA,(602) 2035207,3217790471,,,(602) 2373995,3217728904
+147,ZARZAL-BUGALAGRANDE,"$12,100",Comunicarse con oficina para conocer horarios.,NO,ZARZAL,,BUGALAGRANDE,(602) 2035207,3217790471,,,(602) 2265891,3104638595
+148,ZARZAL-CALI,"$33,100",Comunicarse con oficina para conocer horarios.,NO,ZARZAL,,CALI,(602) 2035207,3217790471,,,(602) 6618809,3108309710
+149,ZARZAL-CARTAGO,"$14,300",Comunicarse con oficina para conocer horarios.,NO,ZARZAL,,CARTAGO,(602) 2035207,3217790471,,,(602) 2144712 – (602) 2176227,3217795909
+150,ZARZAL-CERRITOS,"$18,100",Comunicarse con oficina para conocer horarios.,NO,ZARZAL,,CERRITOS,(602) 2035207,3217790471,,,,
+151,ZARZAL-CERRITOS (LP),"$20,000",Comunicarse con oficina para conocer horarios.,NO,ZARZAL,,CERRITOS (LP),(602) 2035207,3217790471,,,,
+152,ZARZAL-EL CERRITO,"$26,100",Comunicarse con oficina para conocer horarios.,NO,ZARZAL,,EL CERRITO,(602) 2035207,3217790471,,,,
+153,ZARZAL-LA PAILA,"$5,000",Comunicarse con oficina para conocer horarios.,NO,ZARZAL,,LA PAILA,(602) 2035207,3217790471,,,(602) 2034193,3217759133
+154,ZARZAL-LA UNIÓN,"$5,000",Comunicarse con oficina para conocer horarios.,NO,ZARZAL,,LA UNIÓN,(602) 2035207,3217790471,,,,3146219248
+155,ZARZAL-LA URIBE,"$17,800",Comunicarse con oficina para conocer horarios.,NO,ZARZAL,,LA URIBE,(602) 2035207,3217790471,,,,
+156,ZARZAL-LA VICTORIA,"$13,200",Comunicarse con oficina para conocer horarios.,NO,ZARZAL,,LA VICTORIA,(602) 2035207,3217790471,,,,
+157,ZARZAL-OBANDO,"$8,500",Comunicarse con oficina para conocer horarios.,NO,ZARZAL,,OBANDO,(602) 2035207,3217790471,,,,3113763322
+158,ZARZAL-PEREIRA,"$20,700",Comunicarse con oficina para conocer horarios.,NO,ZARZAL,,PEREIRA,(602) 2035207,3217790471,,,(606) 3212919,3177504145
+159,ZARZAL-PEREIRA (LP),"$29,000",Comunicarse con oficina para conocer horarios.,NO,ZARZAL,,PEREIRA (LP),(602) 2035207,3217790471,,,(606) 3212919,3177504145

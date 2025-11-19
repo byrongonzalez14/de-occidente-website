@@ -1,0 +1,58 @@
+[
+  {
+    "id": "cali",
+    "name": "Cali",
+    "price": 26900,
+    "currency": "COP",
+    "image": "/img/destinos-populares-home/cali.jpg"
+  },
+  {
+    "id": "pereira",
+    "name": "Pereira",
+    "price": 27500,
+    "currency": "COP",
+    "image": "/img/destinos-populares-home/pereira.jpg"
+  },
+  {
+    "id": "roldanillo",
+    "name": "Roldanillo",
+    "price": 23500,
+    "currency": "COP",
+    "image": "/img/destinos-populares-home/roldanillo.jpg"
+  },
+  {
+    "id": "tulua",
+    "name": "Tuluá",
+    "price": 22500,
+    "currency": "COP",
+    "image": "/img/destinos-populares-home/tulua.jpg"
+  },
+  {
+    "id": "buga",
+    "name": "Buga",
+    "price": 24900,
+    "currency": "COP",
+    "image": "/img/destinos-populares-home/buga.jpg"
+  },
+  {
+    "id": "cartago",
+    "name": "Cartago",
+    "price": 25900,
+    "currency": "COP",
+    "image": "/img/destinos-populares-home/cartago.jpg"
+  },
+  {
+    "id": "armenia",
+    "name": "Armenia",
+    "price": 26900,
+    "currency": "COP",
+    "image": "/img/destinos-populares-home/armenia.jpg"
+  },
+  {
+    "id": "zarzal",
+    "name": "Zarzal",
+    "price": 21000,
+    "currency": "COP",
+    "image": "/img/destinos-populares-home/zarzal.jpg"
+  }
+]

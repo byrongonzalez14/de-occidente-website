@@ -71,14 +71,14 @@ export const TravelWithUsSection = (): JSX.Element => {
             <div className="absolute -inset-4 -z-10 rounded-[32px] bg-gradient-to-br from-[#c01e27]/15 via-transparent to-[#1c1f35]/10" aria-hidden="true" />
             <div className="overflow-hidden rounded-[28px] border border-slate-200 shadow-[0px_24px_65px_rgba(15,23,42,0.18)]">
               <video
-                className="block h-full w-full object-cover"
+                className="block h-full w-full object-cover pointer-events-none lg:pointer-events-auto"
                 src={videoSrc}
                 poster={videoPoster}
                 autoPlay
                 loop
                 muted
                 playsInline
-                controls
+                disablePictureInPicture
               >
                 Tu navegador no soporta la reproducción de video.
               </video>

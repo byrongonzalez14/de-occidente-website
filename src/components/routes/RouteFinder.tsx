@@ -392,7 +392,7 @@ const DropdownField = ({ id, label, placeholder, value, options, onChange, isCom
         </button>
 
         {isOpen && (
-          <div className="relative mt-2 max-h-40 overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-[0px_20px_45px_rgba(0,0,0,0.16)] transition-all duration-200 ease-in-out sm:max-h-60 lg:absolute lg:left-0 lg:right-0 lg:z-[100]">
+          <div className="relative mt-2 max-h-40 overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-[0px_20px_45px_rgba(0,0,0,0.16)] transition-all duration-200 ease-in-out sm:absolute sm:left-0 sm:right-0 sm:z-[100] sm:max-h-60">
             {filteredOptions.length > 0 ? (
               <ul
                 role="listbox"

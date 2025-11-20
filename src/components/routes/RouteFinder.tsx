@@ -379,9 +379,8 @@ const DropdownField = ({ id, label, placeholder, value, options, onChange, isCom
           onFocus={handleInputFocus}
           onChange={handleInputChange}
           onKeyDown={handleKeyDown}
-          className={`w-full rounded-full border border-slate-200 bg-white pr-12 text-sm text-slate-700 placeholder:text-slate-400 focus:border-[#c01e27] focus:outline-none focus:ring-2 focus:ring-[#c01e27]/20 ${
-            isCompact ? "h-11 px-4" : "h-12 px-5"
-          }`}
+          className={`w-full rounded-full border border-slate-200 bg-white pr-12 text-sm text-slate-700 placeholder:text-slate-400 focus:border-[#c01e27] focus:outline-none focus:ring-2 focus:ring-[#c01e27]/20 ${isCompact ? "h-11 px-4" : "h-12 px-5"
+            }`}
         />
         <button
           type="button"
@@ -393,7 +392,7 @@ const DropdownField = ({ id, label, placeholder, value, options, onChange, isCom
         </button>
 
         {isOpen && (
-          <div className="absolute left-0 right-0 z-50 mt-2 max-h-60 overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-[0px_20px_45px_rgba(0,0,0,0.16)]">
+          <div className="absolute left-0 right-0 z-[100] mt-2 max-h-60 overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-[0px_20px_45px_rgba(0,0,0,0.16)]">
             {filteredOptions.length > 0 ? (
               <ul
                 role="listbox"
@@ -410,11 +409,10 @@ const DropdownField = ({ id, label, placeholder, value, options, onChange, isCom
                         type="button"
                         onMouseDown={(event) => event.preventDefault()}
                         onClick={() => handleSelectOption(option)}
-                        className={`flex w-full items-center justify-between px-4 py-2 text-sm transition ${
-                          isActive
+                        className={`flex w-full items-center justify-between px-4 py-2 text-sm transition ${isActive
                             ? "bg-[#fef3f4] font-semibold text-[#c01e27]"
                             : "text-slate-600 hover:bg-slate-100 hover:text-[#1c1f35]"
-                        }`}
+                          }`}
                       >
                         <span>{option}</span>
                         {isSelected && <span className="text-xs text-[#c01e27]">Seleccionado</span>}
@@ -679,13 +677,13 @@ const RouteResultCard = ({ route }: { route: RouteRecord }): JSX.Element => {
     fijo: string | null;
     celular: string | null;
   }> = [
-    {
-      key: "origin",
-      title: `Contactos en ${route.origen}`,
-      fijo: route.contactos.origen.fijo,
-      celular: route.contactos.origen.celular,
-    },
-  ];
+      {
+        key: "origin",
+        title: `Contactos en ${route.origen}`,
+        fijo: route.contactos.origen.fijo,
+        celular: route.contactos.origen.celular,
+      },
+    ];
 
   const segmento = route.segmento;
   const hasSegmentContact = Boolean(segmento && (segmento.contactos.fijo || segmento.contactos.celular));

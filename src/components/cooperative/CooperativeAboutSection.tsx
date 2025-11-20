@@ -31,7 +31,7 @@ export const CooperativeAboutSection = ({
         <div className="space-y-6 text-slate-700">
 
           <h2 className="text-3xl font-semibold text-[#1c1f35]">{title}</h2>
-          <p className="text-lg leading-relaxed text-slate-700">{introduction}</p>
+          <p className="text-base leading-relaxed text-slate-600">{introduction}</p>
 
           <div className="space-y-4">
             {paragraphs.map((paragraph) => (
@@ -41,7 +41,7 @@ export const CooperativeAboutSection = ({
             ))}
           </div>
 
-          <div className="grid gap-4 sm:grid-cols-2">
+          <div className="grid gap-4 grid-cols-1 sm:grid-cols-2">
             {highlights.map((highlight) => (
               <div
                 key={highlight.label}

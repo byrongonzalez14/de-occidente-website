@@ -16,7 +16,7 @@ export const CooperativeQuickLinks = ({ title, description, items }: Cooperative
           <p className="mt-3 text-base leading-relaxed text-slate-600">{description}</p>
         </header>
 
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           {items.map((item) => (
             <Link
               key={item.id}

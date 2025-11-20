@@ -20,7 +20,7 @@ export const Services = (): JSX.Element => {
       />
 
       <div className="mx-auto w-full max-w-7xl space-y-12 px-4 py-12 sm:px-6 lg:px-8">
-        <section className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <section className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {SERVICES_OVERVIEW.map((service) => (
             <article
               key={service.id}

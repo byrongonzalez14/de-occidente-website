@@ -27,7 +27,7 @@ export const SectionHeroBanner = ({
       )}
       <div className="absolute inset-0 bg-[#c01e27]/90" aria-hidden="true" />
 
-      <div className="relative mx-auto flex max-w-7xl flex-col gap-2 px-4 py-10 sm:px-6 lg:px-8">
+      <div className="relative mx-auto flex max-w-7xl flex-col gap-2 px-4 py-8 sm:px-6 sm:py-10 lg:px-8">
         {accentImage && (
           <img
             src={accentImage.src}
@@ -37,10 +37,10 @@ export const SectionHeroBanner = ({
           />
         )}
 
-        <h1 className="text-2xl font-bold uppercase tracking-normal sm:text-3xl md:text-4xl">
+        <h1 className="text-xl font-bold uppercase tracking-normal sm:text-3xl md:text-4xl">
           {title}
         </h1>
-        {subtitle && <p className="text-sm font-medium text-white/90 md:text-base">{subtitle}</p>}
+        {subtitle && <p className="text-xs font-medium text-white/90 sm:text-sm md:text-base">{subtitle}</p>}
       </div>
     </section>
   );

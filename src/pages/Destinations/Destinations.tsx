@@ -83,7 +83,7 @@ export const Destinations = (): JSX.Element => {
           className="page-section flex flex-col gap-6 rounded-3xl bg-white py-10 shadow-[0px_12px_30px_rgba(0,0,0,0.08)]"
           aria-label="Promociones y servicios"
         >
-          <div className="grid gap-6 md:grid-cols-2">
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
             {promotionalBanners.map((banner) => (
               <img
                 key={banner.id}

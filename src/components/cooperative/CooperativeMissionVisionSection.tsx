@@ -23,7 +23,7 @@ export const CooperativeMissionVisionSection = ({
           <h2 className="mt-2 text-3xl font-semibold text-[#1c1f35]">{title}</h2>
         </header>
 
-        <div className="grid gap-6 md:grid-cols-2">
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
           {cards.map((card) => (
             <article
               key={card.title}

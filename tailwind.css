@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @layer base {
+
   button,
   input,
   select,
@@ -21,6 +22,36 @@
 
   .page-section {
     @apply w-full max-w-screen-xl mx-auto px-6 md:px-10;
+  }
+
+  .mobile-single-column {
+    display: grid;
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem;
+  }
+
+  @media (min-width: 768px) {
+    .mobile-single-column {
+      grid-template-columns: repeat(2, 1fr) !important;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .mobile-single-column {
+      grid-template-columns: repeat(4, 1fr) !important;
+    }
+  }
+
+  .mobile-single-column-banners {
+    display: grid;
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem;
+  }
+
+  @media (min-width: 768px) {
+    .mobile-single-column-banners {
+      grid-template-columns: repeat(2, 1fr) !important;
+    }
   }
 }
 
@@ -120,6 +151,7 @@
 }
 
 @keyframes shimmer {
+
   0%,
   90%,
   to {

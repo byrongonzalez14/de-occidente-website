@@ -392,13 +392,13 @@ const DropdownField = ({ id, label, placeholder, value, options, onChange, isCom
         </button>
 
         {isOpen && (
-          <div className="absolute left-0 right-0 z-[100] mt-2 max-h-60 overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-[0px_20px_45px_rgba(0,0,0,0.16)]">
+          <div className="relative mt-2 max-h-40 overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-[0px_20px_45px_rgba(0,0,0,0.16)] transition-all duration-200 ease-in-out sm:max-h-60 lg:absolute lg:left-0 lg:right-0 lg:z-[100]">
             {filteredOptions.length > 0 ? (
               <ul
                 role="listbox"
                 id={listboxId}
                 aria-labelledby={id}
-                className="max-h-60 overflow-y-auto py-2 scrollbar-thin scrollbar-track-transparent scrollbar-thumb-slate-200/80"
+                className="max-h-40 overflow-y-auto py-2 scrollbar-thin scrollbar-track-transparent scrollbar-thumb-slate-200/80 sm:max-h-60"
               >
                 {filteredOptions.map((option, optionIndex) => {
                   const isActive = optionIndex === activeIndex;
@@ -410,8 +410,8 @@ const DropdownField = ({ id, label, placeholder, value, options, onChange, isCom
                         onMouseDown={(event) => event.preventDefault()}
                         onClick={() => handleSelectOption(option)}
                         className={`flex w-full items-center justify-between px-4 py-2 text-sm transition ${isActive
-                            ? "bg-[#fef3f4] font-semibold text-[#c01e27]"
-                            : "text-slate-600 hover:bg-slate-100 hover:text-[#1c1f35]"
+                          ? "bg-[#fef3f4] font-semibold text-[#c01e27]"
+                          : "text-slate-600 hover:bg-slate-100 hover:text-[#1c1f35]"
                           }`}
                       >
                         <span>{option}</span>
@@ -563,7 +563,7 @@ export const RouteFinder = ({
           onSubmit={handleFormSubmit}
           className={
             isCompact
-              ? "mt-5 grid gap-3 sm:grid-cols-[repeat(3,minmax(0,1fr))]"
+              ? "mt-5 grid gap-6 sm:grid-cols-[repeat(3,minmax(0,1fr))] sm:gap-3"
               : "mt-3 grid gap-4 md:grid-cols-[minmax(0,1fr)_minmax(0,1fr)_auto]"
           }
         >

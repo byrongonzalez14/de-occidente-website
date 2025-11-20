@@ -11,7 +11,7 @@ export const HeroBannerSection = (): JSX.Element => {
       <img
         className="absolute inset-0 h-full w-full object-cover"
         alt="Bus de Occidente en carretera al atardecer"
-        src="/img/bg.jpg"
+        src="/img/general/hero-banner-deOccidente.jpg"
       />
 
       <div className="absolute inset-0 bg-gradient-to-r from-[#1c1f35]/70 via-[#1c1f35]/40 to-transparent" aria-hidden="true" />
@@ -31,8 +31,8 @@ export const HeroBannerSection = (): JSX.Element => {
           </Link>
         </div>
 
-        <div className="flex w-full justify-center lg:w-1/2 lg:justify-center">
-          <TrackingSection className="mx-auto w-full max-w-sm sm:max-w-md lg:max-w-xs" />
+        <div className="flex w-full justify-center lg:w-1/2 lg:justify-end">
+          <TrackingSection className="mx-auto w-full max-w-sm sm:max-w-md lg:ml-auto lg:mr-0 lg:max-w-xs" />
         </div>
       </div>
     </section>

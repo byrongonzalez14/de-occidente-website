@@ -1,1 +1,0 @@
-export { DestinosBuga } from "./DestinosBuga";

@@ -3,7 +3,7 @@ import { Navigate, useParams } from "react-router-dom";
 import { DisclaimerSection } from "../../components/DisclaimerSection";
 import { FooterSection } from "../../components/FooterSection";
 import { HeaderSection } from "../../components/HeaderSection";
-import { SectionHeroBanner } from "../../components/SectionHeroBanner";
+
 import { TravelWithUsSection } from "../../components/TravelWithUsSection";
 import { DestinationAsideSlider } from "../../components/destinations/DestinationAsideSlider";
 import { DestinationContentSections } from "../../components/destinations/DestinationContentSections";
@@ -41,11 +41,7 @@ export const DestinationDetailPage = (): JSX.Element => {
     <main className="flex w-full flex-col items-stretch" data-page-id={`destino-${detail.id}`}>
       <HeaderSection />
 
-      <SectionHeroBanner
-        title={detail.name.toUpperCase()}
-        backgroundImage="/img/image-5-4.png"
-        accentImage={{ src: "/img/vector-38.svg", className: "-right-6 top-1/2 h-24 -translate-y-1/2" }}
-      />
+
 
       <div className="mx-auto w-full max-w-7xl space-y-12 px-4 py-12 sm:px-6 lg:px-8">
         <DestinationHero
@@ -58,6 +54,13 @@ export const DestinationDetailPage = (): JSX.Element => {
         <div className="grid gap-10 lg:grid-cols-[minmax(0,2fr)_minmax(0,1fr)] lg:items-start">
           <div className="space-y-10">
             <DestinationScheduleTable cityName={detail.name} cityId={detail.id} />
+
+            <img
+              src={detail.heroImage}
+              alt={`Paisaje de ${detail.name}`}
+              className="w-full rounded-3xl object-cover shadow-lg"
+            />
+
             <DestinationContentSections sections={detail.sections} />
           </div>
 

@@ -27,7 +27,7 @@ export type CooperativeDetailPage = {
   id: string;
   title: string;
   subtitle?: string;
-  heroImage: string;
+  // heroImage removed
   accentImage?: { src: string; className?: string };
   sections: CooperativeSection[];
   references: CooperativeReference[];
@@ -38,7 +38,7 @@ export const cooperativeDetailPages: CooperativeDetailPage[] = [
     id: "actualizacion-rte",
     title: "Actualización RTE",
     subtitle: "Accede a los documentos actualizados del Registro de Transporte Empresarial.",
-    heroImage: "/img/hero-rte.jpg",
+    accentImage: { src: "/img/general/o-logo.svg" },
     sections: [
       {
         id: "introduccion",
@@ -77,7 +77,7 @@ export const cooperativeDetailPages: CooperativeDetailPage[] = [
     id: "politicas-de-calidad",
     title: "Políticas de Calidad",
     subtitle: "Estamos comprometidos con la calidad, la seguridad y el bienestar de nuestros usuarios.",
-    heroImage: "/img/hero-calidad.jpg",
+    accentImage: { src: "/img/general/o-logo.svg" },
     sections: [
       {
         id: "video",
@@ -152,7 +152,7 @@ export const cooperativeDetailPages: CooperativeDetailPage[] = [
     id: "reglamento-de-equipaje",
     title: "Reglamento de Equipaje",
     subtitle: "Viaja con tranquilidad siguiendo estas recomendaciones y lineamientos.",
-    heroImage: "/img/hero-equipaje.jpg",
+    accentImage: { src: "/img/general/o-logo.svg" },
     sections: [
       {
         id: "memorando",
@@ -187,7 +187,7 @@ export const cooperativeDetailPages: CooperativeDetailPage[] = [
               "Si tu equipaje de mano supera las condiciones de equipaje de bodega (sobrepeso, sobredimensión o cantidad de piezas permitidas), será registrado como equipaje adicional.",
             ],
             image: {
-              src: "/img/general/equipage-mano.webp",
+              src: "/img/general/equipage-mano.jpg",
               alt: "Guía visual sobre dimensiones del equipaje de mano",
             },
           },
@@ -205,7 +205,7 @@ export const cooperativeDetailPages: CooperativeDetailPage[] = [
               "No llevar material explosivo y infalamable que ponga en riesgo la vida de los pasajeros, ni nada que este expresamente prohibido en la ley.",
             ],
             image: {
-              src: "/img/general/equipaje-bodega.webp",
+              src: "/img/general/equipaje-bodega.jpg",
               alt: "Guía visual sobre dimensiones del equipaje de bodega",
             },
           },
@@ -268,7 +268,7 @@ export const cooperativeDetailPages: CooperativeDetailPage[] = [
     id: "contrato-transporte-pasajeros",
     title: "Contrato transporte pasajeros",
     subtitle: "Conoce las cláusulas y obligaciones aplicables al servicio de pasajeros.",
-    heroImage: "/img/photo-8.png",
+    accentImage: { src: "/img/general/o-logo.svg" },
     sections: [
       {
         id: "contrato-pasajeros",
@@ -337,7 +337,7 @@ export const cooperativeDetailPages: CooperativeDetailPage[] = [
     id: "contrato-transporte-mercancia",
     title: "Contrato transporte mercancía",
     subtitle: "Condiciones y responsabilidades para envíos y encomiendas.",
-    heroImage: "/img/hero-rte.jpg",
+    accentImage: { src: "/img/general/o-logo.svg" },
     sections: [
       {
         id: "contrato-mercancia",
@@ -346,6 +346,10 @@ export const cooperativeDetailPages: CooperativeDetailPage[] = [
           "La Empresa se compromete a transportar la mercancía conservando las mismas condiciones físicas en que fue entregada, cumpliendo con los tiempos pactados con el cliente.",
           "El remitente deberá suministrar la información necesaria para el envío de la mercancía según los reglamentos internos de la cooperativa, además de entregarla debidamente embalada y rotulada conforme a las exigencias propias de su naturaleza (Art. 1013 C. Cio.).",
         ],
+      },
+      {
+        id: "subsecciones",
+        heading: "Detalles del servicio",
         subsections: [
           {
             id: "obligaciones-remitente",

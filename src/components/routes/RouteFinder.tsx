@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
-import { ROUTE_CITIES, ROUTES, type RouteRecord } from "../../data/routes";
+import { ROUTES, type RouteRecord } from "../../data/routes";
 
 export type RouteFinderVariant = "full" | "compact";
 
@@ -89,6 +89,46 @@ const getRouteStops = (route: RouteRecord): string[] => {
 
   return dedupeStops([route.origen, route.destino]);
 };
+
+const addOptionToMap = (map: Map<string, string>, value: string | null | undefined): void => {
+  if (value == null) return;
+  const trimmed = value.trim();
+  if (trimmed.length === 0) return;
+  const normalized = createCityKey(trimmed).full;
+  if (!normalized) return;
+  if (!map.has(normalized)) {
+    map.set(normalized, trimmed);
+  }
+};
+
+const sortOptions = (values: string[]): string[] => values.sort((a, b) => a.localeCompare(b, "es"));
+
+const buildRouteOptions = (): { originOptions: string[]; destinationOptions: string[] } => {
+  const originMap = new Map<string, string>();
+  const destinationMap = new Map<string, string>();
+
+  ROUTES.forEach((route) => {
+    addOptionToMap(originMap, route.origen);
+    addOptionToMap(destinationMap, route.destino);
+
+    const stops = getRouteStops(route);
+    stops.forEach((stop, index) => {
+      if (index === 0) return;
+      addOptionToMap(destinationMap, stop);
+    });
+
+    if (route.segmento?.nombre) {
+      addOptionToMap(destinationMap, route.segmento.nombre);
+    }
+  });
+
+  return {
+    originOptions: sortOptions(Array.from(originMap.values())),
+    destinationOptions: sortOptions(Array.from(destinationMap.values())),
+  };
+};
+
+const { originOptions: ROUTE_ORIGIN_OPTIONS, destinationOptions: ROUTE_DESTINATION_OPTIONS } = buildRouteOptions();
 
 const filterRoutes = (origin: string, destination: string): RouteRecord[] => {
   const originKey = createCityKey(origin);
@@ -428,8 +468,6 @@ export const RouteFinder = ({
     }
   }, [autoSearch]);
 
-  const cityOptions = useMemo(() => ROUTE_CITIES, []);
-
   const results = useMemo(() => {
     if (!hasSearched) return [];
     return filterRoutes(origin, destination);
@@ -536,7 +574,7 @@ export const RouteFinder = ({
             label="Origen"
             placeholder="Selecciona ciudad de origen"
             value={origin}
-            options={cityOptions}
+            options={ROUTE_ORIGIN_OPTIONS}
             onChange={setOrigin}
             isCompact={isCompact}
           />
@@ -546,7 +584,7 @@ export const RouteFinder = ({
             label="Destino"
             placeholder="Selecciona ciudad de destino"
             value={destination}
-            options={cityOptions}
+            options={ROUTE_DESTINATION_OPTIONS}
             onChange={setDestination}
             isCompact={isCompact}
           />

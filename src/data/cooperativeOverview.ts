@@ -1,10 +1,10 @@
 export const cooperativeHero = {
   title: "Nuestra Cooperativa",
   subtitle:
-    "Construimos experiencias de movilidad y logística que conectan al Valle del Cauca con el resto del país, siempre con vocación de servicio y cercanía humana.",
-  backgroundImage: "/img/image-5-4.png",
+    "Conectamos al Valle del Cauca con el país, con vocación de servicio y cercanía humana.",
+  backgroundImage: "/img/general/banner-rojo.png",
   accentImage: {
-    src: "/img/vector-38.svg",
+    src: "/img/general/o-logo.svg",
     className: "-right-8 top-1/2 h-20 -translate-y-1/2",
   },
   cta: {
@@ -85,6 +85,18 @@ export const cooperativeQuickLinks = {
       title: "Reglamento de Equipaje",
       description: "Revisa lineamientos y buenas prácticas para el manejo de equipaje de mano y en bodega.",
       to: "/nuestra-cooperativa/reglamento-de-equipaje",
+    },
+    {
+      id: "contrato-transporte-mercancia",
+      title: "Contrato Transporte Mercancía",
+      description: "Consulta las condiciones y responsabilidades para envíos y encomiendas.",
+      to: "/nuestra-cooperativa/contrato-transporte-mercancia",
+    },
+    {
+      id: "contrato-transporte-pasajeros",
+      title: "Contrato Transporte Pasajeros",
+      description: "Conoce las cláusulas y obligaciones aplicables al servicio de pasajeros.",
+      to: "/nuestra-cooperativa/contrato-transporte-pasajeros",
     },
   ],
 };

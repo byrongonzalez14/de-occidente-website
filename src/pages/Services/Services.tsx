@@ -15,8 +15,8 @@ export const Services = (): JSX.Element => {
       <SectionHeroBanner
         title="Servicios de De Occidente"
         subtitle="Soluciones integrales para tus viajes, envíos y experiencias en carretera."
-        backgroundImage="/img/image-5-4.png"
-        accentImage={{ src: "/img/vector-38.svg", className: "-right-6 top-1/2 h-24 -translate-y-1/2" }}
+        backgroundImage="/img/general/banner-rojo.png"
+        accentImage={{ src: "/img/general/o-logo.svg" }}
       />
 
       <div className="mx-auto w-full max-w-7xl space-y-12 px-4 py-12 sm:px-6 lg:px-8">
@@ -63,28 +63,48 @@ export const Services = (): JSX.Element => {
 
         <TravelWithUsSection />
 
-        <section className="rounded-3xl bg-gradient-to-r from-[#c01e27] to-[#e13c44] p-10 text-white shadow-[0px_12px_30px_rgba(0,0,0,0.25)]">
-          <div className="grid gap-6 md:grid-cols-[minmax(0,3fr)_minmax(0,2fr)] md:items-center">
-            <div className="space-y-4">
-              <h2 className="text-3xl font-bold">¿Necesitas asesoría personalizada?</h2>
-              <p className="text-base leading-relaxed text-white/90">
-                Nuestro equipo comercial está listo para ayudarte a planear rutas especiales, convenios empresariales o soluciones logísticas. Escríbenos y recibirás respuesta en menos de 24 horas.
-              </p>
-              <a
-                href="/contacto#encuentra-la-oficina"
-                className="inline-flex items-center justify-center rounded-full bg-white px-6 py-3 text-sm font-semibold text-[#c01e27] transition hover:bg-white/90"
-              >
-                Contáctanos
-              </a>
+        <section className="relative overflow-hidden rounded-[2.5rem] bg-slate-50 px-6 py-6 shadow-sm sm:px-12 lg:px-20 lg:py-8">
+          {/* Decorative background element */}
+          <div className="absolute -bottom-24 -right-24 h-96 w-96 rounded-full bg-slate-200/50 blur-3xl" />
+
+          <div className="relative grid items-center gap-12 lg:grid-cols-2 lg:gap-20">
+            <div className="space-y-8">
+              <div className="space-y-6">
+                <h2 className="text-4xl font-bold leading-tight tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">
+                  Recorremos las <span className="text-[#c01e27]">vías</span> contigo
+                </h2>
+                <p className="text-lg leading-relaxed text-slate-600 sm:text-xl">
+                  Cada kilómetro cuenta una historia. Viaja con la tranquilidad de saber que nuestra experiencia y compromiso te acompañan en todo el Valle del Cauca.
+                </p>
+              </div>
+
+              <div className="flex flex-wrap gap-4">
+                <Link
+                  to="/destinos"
+                  className="inline-flex items-center justify-center rounded-full bg-[#c01e27] px-8 py-4 text-base font-bold text-white shadow-lg shadow-[#c01e27]/20 transition duration-300 hover:-translate-y-1 hover:bg-[#a41822] hover:shadow-xl"
+                >
+                  Ver destinos
+                </Link>
+                <Link
+                  to="/contacto"
+                  className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-8 py-4 text-base font-bold text-slate-700 transition duration-300 hover:border-slate-300 hover:bg-slate-50"
+                >
+                  Contáctanos
+                </Link>
+              </div>
             </div>
 
-            <div className="overflow-hidden rounded-3xl">
-              <img
-                src="/img/general/deOccidente-bus-3.png"
-                alt="Bus de la cooperativa De Occidente"
-                className="h-full w-full object-cover"
-                loading="lazy"
-              />
+            <div className="relative mx-auto w-full max-w-lg lg:max-w-none">
+              <div className="relative aspect-[4/3] overflow-hidden rounded-3xl shadow-2xl">
+                <img
+                  src="/img/general/deOccidente-bus.png"
+                  alt="Bus de la cooperativa De Occidente en carretera"
+                  className="h-full w-full object-cover transition duration-700 hover:scale-105"
+                  loading="lazy"
+                />
+                {/* Gradient overlay for better text contrast if needed, or just aesthetic */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
+              </div>
             </div>
           </div>
         </section>

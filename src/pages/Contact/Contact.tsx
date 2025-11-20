@@ -17,8 +17,8 @@ export const ContactPage = (): JSX.Element => {
       <SectionHeroBanner
         title="Contacto"
         subtitle="Diligencia nuestros canales y recibe acompañamiento oportuno para tus viajes y envíos."
-        backgroundImage="/img/image-5-4.png"
-        accentImage={{ src: "/img/vector-38.svg", className: "-right-8 top-1/2 h-20 -translate-y-1/2" }}
+        backgroundImage="/img/general/banner-rojo.png"
+        accentImage={{ src: "/img/general/o-logo.svg" }}
       />
 
       <ContactQuickCards cards={contactQuickCards} />

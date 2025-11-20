@@ -46,7 +46,7 @@
     "name": "El Naranjal",
     "price": 19900,
     "currency": "COP",
-    "image": "/img/headers-destinos/naranjal.jpg"
+    "image": "/img/headers-destinos/el-naranjal.jpg"
   },
   {
     "id": "la-aguada",
@@ -83,7 +83,6 @@
     "currency": "COP",
     "image": "/img/headers-destinos/roldanillo.jpg"
   },
-  
   {
     "id": "tulua",
     "name": "Tuluá",

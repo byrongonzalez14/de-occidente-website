@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-import { FaFacebook, FaInstagram } from "react-icons/fa6";
+import { FaFacebook, FaInstagram, FaPhone, FaLocationDot } from "react-icons/fa6";
 import type { ComponentType } from "react";
 import type { IconBaseProps } from "react-icons";
 
 interface ContactInfo {
-  icon: string;
+  IconComponent: ComponentType<IconBaseProps>;
   text: string;
   type: "location" | "phone";
 }
@@ -27,17 +27,17 @@ export const FooterSection = (): JSX.Element => {
 
   const contactInfo: ContactInfo[] = [
     {
-      icon: "/img/icons-8.svg",
+      IconComponent: FaLocationDot as ComponentType<IconBaseProps>,
       text: "Carrera 2 # 11C-14 Roldanillo (Valle)",
       type: "location",
     },
     {
-      icon: "/img/vector-131.svg",
+      IconComponent: FaPhone as ComponentType<IconBaseProps>,
       text: "+57 (602) 229 7017",
       type: "phone",
     },
     {
-      icon: "/img/vector-131.svg",
+      IconComponent: FaPhone as ComponentType<IconBaseProps>,
       text: "+57 (602) 229 8476",
       type: "phone",
     },
@@ -79,21 +79,47 @@ export const FooterSection = (): JSX.Element => {
       <div className="page-section flex flex-col gap-12 py-12">
         <div className="flex flex-col gap-10 lg:flex-row lg:items-start lg:justify-between">
           <div className="flex flex-col gap-8 lg:max-w-xs">
-            <img className="h-16 w-auto" alt="Cooperativa de Occidente Logo" src="/img/frame-1.svg" />
+            <div className="flex flex-col items-center gap-3">
+              <img className="h-7 w-auto" alt="Cooperativa de Occidente Logo" src="/img/general/logo-deoccidente-white.svg" />
+
+              <div className="flex items-center gap-4">
+                <a
+                  href="https://www.instagram.com/deoccidenteoficial/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Instagram"
+                  className="text-white transition hover:text-[#ffe0e3]"
+                >
+                  <InstagramIcon className="h-5 w-5" aria-hidden="true" />
+                </a>
+                <a
+                  href="https://www.facebook.com/DeOccidente"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Facebook"
+                  className="text-white transition hover:text-[#ffe0e3]"
+                >
+                  <FacebookIcon className="h-5 w-5" aria-hidden="true" />
+                </a>
+              </div>
+            </div>
 
             <address className="space-y-4 not-italic text-sm leading-relaxed">
-              {contactInfo.map((contact, index) => (
-                <div key={index} className="flex items-start gap-3">
-                  <img src={contact.icon} alt="" className={`mt-0.5 h-4 w-4 ${contact.type === "location" ? "shrink-0" : ""}`} aria-hidden="true" />
-                  {contact.type === "phone" ? (
-                    <a href={`tel:${contact.text.replace(/\s/g, "")}`} className="font-medium text-white transition hover:text-[#ffe0e3]">
-                      {contact.text}
-                    </a>
-                  ) : (
-                    <p className="font-medium text-white">{contact.text}</p>
-                  )}
-                </div>
-              ))}
+              {contactInfo.map((contact, index) => {
+                const Icon = contact.IconComponent;
+                return (
+                  <div key={index} className="flex items-start gap-3">
+                    <Icon className="mt-0.5 h-4 w-4 shrink-0" aria-hidden="true" />
+                    {contact.type === "phone" ? (
+                      <a href={`tel:${contact.text.replace(/\s/g, "")}`} className="font-medium text-white transition hover:text-[#ffe0e3]">
+                        {contact.text}
+                      </a>
+                    ) : (
+                      <p className="font-medium text-white">{contact.text}</p>
+                    )}
+                  </div>
+                );
+              })}
             </address>
           </div>
 
@@ -101,7 +127,7 @@ export const FooterSection = (): JSX.Element => {
             {footerColumns.map((column) => (
               <nav key={column.title} aria-label={column.title} className="space-y-4">
                 <h2 className="text-lg font-bold uppercase tracking-[0.16em]">{column.title}</h2>
-                <ul className="space-y-3 text-sm font-medium">
+                <ul className="space-y-3 text-sm font-normal">
                   {column.links.map((link) => (
                     <li key={link.href}>
                       {link.isExternal ? (

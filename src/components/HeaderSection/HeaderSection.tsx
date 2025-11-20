@@ -53,9 +53,9 @@ export const HeaderSection = (): JSX.Element => {
       <div className="page-section flex items-center justify-between gap-4 py-4">
         <a href="/" className="flex items-center gap-3" aria-label="Ir a la página principal">
           <img
-            className="h-12 w-auto"
+            className="h-7 w-auto"
             alt="Logo de Occidente"
-            src="/img/rectangle-85-8.png"
+            src="/img/general/logo-deoccidente.svg"
             loading="lazy"
           />
         </a>
@@ -139,7 +139,7 @@ export const HeaderSection = (): JSX.Element => {
             aria-label="Instagram"
             className="text-gray-500 transition hover:text-gray-700"
           >
-            <InstagramIcon className="h-6 w-6" aria-hidden="true" />
+            <InstagramIcon className="h-5 w-5" aria-hidden="true" />
           </a>
           <a
             href="https://www.facebook.com/DeOccidente"
@@ -148,7 +148,7 @@ export const HeaderSection = (): JSX.Element => {
             aria-label="Facebook"
             className="text-gray-500 transition hover:text-gray-700"
           >
-            <FacebookIcon className="h-6 w-6" aria-hidden="true" />
+            <FacebookIcon className="h-5 w-5" aria-hidden="true" />
           </a>
           <button
             type="button"

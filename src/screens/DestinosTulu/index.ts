@@ -1,1 +1,0 @@
-export { DestinosTulu } from "./DestinosTulu";

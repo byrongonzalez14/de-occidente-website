@@ -4,7 +4,7 @@ import destinations from "../../data/destinations.json";
 import { DisclaimerSection } from "../../components/DisclaimerSection";
 import { FooterSection } from "../../components/FooterSection";
 import { HeaderSection } from "../../components/HeaderSection";
-import { SectionHeroBanner } from "../../components/SectionHeroBanner";
+
 import { RouteFinder } from "../../components/routes/RouteFinder";
 import { TravelWithUsSection } from "../../components/TravelWithUsSection";
 
@@ -26,16 +26,7 @@ export const Destinations = (): JSX.Element => {
     <main className="flex w-full flex-col items-stretch" data-page-id="destinations">
       <HeaderSection />
 
-      <SectionHeroBanner
-        title="Conoce nuestras rutas"
-        subtitle="Encuentra horarios, tarifas y toda la información para planear tu viaje de forma segura y cómoda."
-        backgroundImage="/img/image-5-4.png"
-        accentImage={{
-          src: "/img/vector-38.svg",
-          alt: "Elemento decorativo",
-          className: "-right-6 top-1/2 h-24 -translate-y-1/2",
-        }}
-      />
+
 
       <section className="mx-auto max-w-7xl space-y-8 px-4 py-8 sm:px-6 lg:px-8">
         <RouteFinder resultsMode="modal" />

@@ -8,7 +8,7 @@ interface DestinationHeroProps {
 export const DestinationHero = ({ name, imageSrc, imageAlt, summary }: DestinationHeroProps): JSX.Element => {
   return (
     <section className="relative isolate overflow-hidden rounded-3xl bg-[#c01e27] text-white shadow-[0px_18px_45px_rgba(0,0,0,0.2)]">
-      <img src={imageSrc} alt={imageAlt} className="absolute inset-0 h-full w-full object-cover" />
+
       <div className="absolute inset-0 bg-gradient-to-r from-[#c01e27]/85 via-[#c01e27]/80 to-[#c01e27]/65" aria-hidden="true" />
 
       <div className="relative flex flex-col gap-6 px-6 py-12 sm:px-10 md:flex-row md:items-end md:justify-between md:gap-12 lg:px-14">

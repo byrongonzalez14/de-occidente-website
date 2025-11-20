@@ -1,1 +1,0 @@
-export { PopularDestinationsSection } from "./PopularDestinationsSection";

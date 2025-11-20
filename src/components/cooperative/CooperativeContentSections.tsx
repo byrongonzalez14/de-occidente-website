@@ -91,7 +91,7 @@ export const CooperativeContentSections = ({ sections }: CooperativeContentSecti
                         <img
                           src={subsection.image.src}
                           alt={subsection.image.alt}
-                          className="h-full w-full object-cover"
+                          className="h-auto w-full"
                           loading="lazy"
                         />
                         {subsection.image.caption && (

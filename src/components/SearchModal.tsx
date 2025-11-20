@@ -16,7 +16,7 @@ const filterItems = (query: string, items: GlobalSearchItem[]): GlobalSearchItem
   }
 
   return items.filter((item) => {
-    const haystack = `${item.title} ${item.description}`.toLowerCase();
+    const haystack = `${item.title} ${item.description} ${item.content ?? ""}`.toLowerCase();
     return haystack.includes(normalized);
   });
 };
@@ -106,8 +106,26 @@ export const SearchModal = ({ isOpen, onClose }: SearchModalProps): JSX.Element 
                       <span className="text-[0.65rem] font-semibold uppercase tracking-[0.28em] text-[#c01e27]">
                         {item.category}
                       </span>
-                      <p className="mt-2 text-base font-semibold text-[#1c1f35]">{item.title}</p>
-                      <p className="mt-1 text-sm text-slate-600">{item.description}</p>
+                      <p className="mt-2 text-base font-semibold text-[#1c1f35]">
+                        <HighlightText text={item.title} highlight={query} />
+                      </p>
+                      <p className="mt-1 text-sm text-slate-600">
+                        <HighlightText text={item.description} highlight={query} />
+                      </p>
+                      {/* Show content snippet if match is deep inside content */}
+                      {query.trim().length > 0 &&
+                        !item.title.toLowerCase().includes(query.toLowerCase()) &&
+                        !item.description.toLowerCase().includes(query.toLowerCase()) &&
+                        item.content && (
+                          <p className="mt-2 border-t border-slate-100 pt-2 text-xs italic text-slate-500">
+                            "...
+                            <HighlightText
+                              text={getSnippet(item.content, query)}
+                              highlight={query}
+                            />
+                            ..."
+                          </p>
+                        )}
                     </Link>
                   </li>
                 ))}
@@ -119,4 +137,33 @@ export const SearchModal = ({ isOpen, onClose }: SearchModalProps): JSX.Element 
     </div>,
     document.body,
   );
+};
+
+// Helper components for highlighting
+const HighlightText = ({ text, highlight }: { text: string; highlight: string }) => {
+  if (!highlight.trim()) {
+    return <>{text}</>;
+  }
+  const parts = text.split(new RegExp(`(${highlight})`, "gi"));
+  return (
+    <>
+      {parts.map((part, i) =>
+        part.toLowerCase() === highlight.toLowerCase() ? (
+          <span key={i} className="bg-[#c01e27]/10 font-bold text-[#c01e27]">
+            {part}
+          </span>
+        ) : (
+          part
+        ),
+      )}
+    </>
+  );
+};
+
+const getSnippet = (text: string, query: string): string => {
+  const index = text.toLowerCase().indexOf(query.toLowerCase());
+  if (index === -1) return text.slice(0, 100);
+  const start = Math.max(0, index - 40);
+  const end = Math.min(text.length, index + query.length + 60);
+  return text.slice(start, end);
 };

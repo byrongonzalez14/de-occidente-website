@@ -109,7 +109,7 @@ export const SERVICE_DETAILS: ServiceDetail[] = [
     heroImage: "/img/general/pasajeros.png",
     heroImageAlt: "Pasajeros abordando un bus de De Occidente",
     intro:
-      "Conecta con el corazón del Valle del Cauca y el Eje Cafetero gracias a nuestra red de rutas diarias. Flota moderna, conductores certificados y atención al pasajero 24/7.",
+      "Conecta con el corazón del Valle del Cauca y el Eje Cafetero gracias a nuestra red de rutas diarias. Flota moderna y conductores certificados.",
     body: [
       "Disponemos de salidas programadas cada día a más de 15 destinos, con opciones directas y rutas con paradas intermedias. Todas nuestras unidades cuentan con sillas reclinables, aire acondicionado y WiFi a bordo.",
       "Compra tus tiquetes en terminal, vía telefónica o a través de nuestros aliados digitales. Nuestro equipo te orienta sobre equipaje, descuentos y programas corporativos."

@@ -29,7 +29,7 @@ export const CooperativeAboutSection = ({
     <section id={id} className="page-section py-16">
       <div className="mx-auto grid max-w-6xl gap-12 lg:grid-cols-[minmax(0,3fr)_minmax(0,2fr)] lg:items-center">
         <div className="space-y-6 text-slate-700">
-          <p className="text-xs font-semibold uppercase tracking-[0.35em] text-[#c01e27]">Nuestra cooperativa</p>
+
           <h2 className="text-3xl font-semibold text-[#1c1f35]">{title}</h2>
           <p className="text-lg leading-relaxed text-slate-700">{introduction}</p>
 

@@ -1,6 +1,6 @@
 export const DisclaimerSection = (): JSX.Element => {
   const footerData = {
-    logoSrc: "/img/logo-vigilado-supertransporte-blanco-1-8.png",
+    logoSrc: "/img/general/logo-supertransporte.png",
     logoAlt: "Logo vigilado",
     copyright: "© 2025 Cooperativa de Transportadores de Occidente.",
     designText: "Diseño y Desarrollo por",

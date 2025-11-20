@@ -1,46 +1,30 @@
 import { ContactQuickCard } from "../../data/contactInfo";
+import type { ComponentType } from "react";
+import type { IconBaseProps } from "react-icons";
+import { FaClock, FaEnvelope, FaPhone, FaWhatsapp } from "react-icons/fa6";
 
-const Icon = ({ name }: { name: ContactQuickCard["icon"] }): JSX.Element => {
-  const commonProps = {
-    className: "h-6 w-6",
-    viewBox: "0 0 24 24",
-    fill: "none",
-    stroke: "currentColor" as const,
-    strokeWidth: 1.8,
-    strokeLinecap: "round" as const,
-    strokeLinejoin: "round" as const,
-  };
+const Icon = ({ name }: { name: ContactQuickCard["icon"] }) => {
+  const className = "h-6 w-6";
+
+  let IconComponent: ComponentType<IconBaseProps>;
 
   switch (name) {
     case "phone":
-      return (
-        <svg {...commonProps}>
-          <path d="M6.4 2.4l3.2 1.6a2 2 0 01.9 2.7l-.7 1.5a1 1 0 00.2 1.1l4 4a1 1 0 001.1.2l1.5-.7a2 2 0 012.7.9l1.6 3.2a1 1 0 01-.5 1.4 14.5 14.5 0 01-6.4 1.5C8.6 20.8 3.2 15.4 3.2 8.8a14.5 14.5 0 011.5-6.4 1 1 0 011.4-.4z" />
-        </svg>
-      );
+      IconComponent = FaPhone as ComponentType<IconBaseProps>;
+      break;
     case "whatsapp":
-      return (
-        <svg {...commonProps}>
-          <path d="M21 12a9 9 0 10-16.2 5.4L4 21l3.7-.7A9 9 0 0021 12z" />
-          <path d="M8.8 8.8c0 3.1 2.5 5.6 5.6 5.6a1.5 1.5 0 001.4-1c.1-.4.2-.7-.1-1l-.7-1.2a.9.9 0 00-.8-.4h-.6a.5.5 0 01-.4-.2l-.6-.6a.5.5 0 010-.7l.3-.3a.5.5 0 000-.7l-1-1a.9.9 0 00-1.2 0l-.9.9a1.5 1.5 0 00-.4 1.1z" />
-        </svg>
-      );
+      IconComponent = FaWhatsapp as ComponentType<IconBaseProps>;
+      break;
     case "mail":
-      return (
-        <svg {...commonProps}>
-          <rect x="3" y="5" width="18" height="14" rx="2" />
-          <path d="M3 7l9 6 9-6" />
-        </svg>
-      );
+      IconComponent = FaEnvelope as ComponentType<IconBaseProps>;
+      break;
     case "clock":
     default:
-      return (
-        <svg {...commonProps}>
-          <circle cx="12" cy="12" r="9" />
-          <path d="M12 7v5l3 2" />
-        </svg>
-      );
+      IconComponent = FaClock as ComponentType<IconBaseProps>;
+      break;
   }
+
+  return <IconComponent className={className} />;
 };
 
 interface ContactQuickCardsProps {

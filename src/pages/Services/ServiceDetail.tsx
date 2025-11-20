@@ -38,8 +38,8 @@ export const ServiceDetailPage = (): JSX.Element => {
 
       <SectionHeroBanner
         title={detail.name.toUpperCase()}
-        backgroundImage="/img/image-5-4.png"
-        accentImage={{ src: "/img/vector-38.svg", className: "-right-6 top-1/2 h-24 -translate-y-1/2" }}
+        backgroundImage="/img/general/banner-rojo.png"
+        accentImage={{ src: "/img/general/o-logo.svg" }}
       />
 
       <div className="mx-auto w-full max-w-7xl space-y-12 px-4 py-12 sm:px-6 lg:px-8">
@@ -137,33 +137,45 @@ export const ServiceDetailPage = (): JSX.Element => {
                   </section>
                 )}
 
-                {detail.id === "transporte-pasajeros" && (
-                  <section className="space-y-4 rounded-3xl border border-slate-200/70 bg-white p-6 shadow-[0px_18px_45px_rgba(0,0,0,0.08)]">
-                    <div className="space-y-1">
-                      <p className="text-[0.68rem] font-semibold uppercase tracking-[0.38em] text-[#c01e27]">Documentación para viajeros</p>
-                      <h3 className="text-lg font-semibold text-[#1c1f35]">Información legal y reglamentaria</h3>
-                      <p className="text-sm text-slate-600">Revisa los documentos que garantizan la seguridad y condiciones del transporte de pasajeros.</p>
-                    </div>
-
-                    <div className="grid gap-3 sm:grid-cols-2">
-                      <Link
-                        to="/nuestra-cooperativa/reglamento-de-equipaje"
-                        className="group flex items-center justify-between rounded-2xl border border-slate-200 px-4 py-3 text-sm font-semibold text-[#1c1f35] transition hover:border-[#c01e27] hover:bg-[#fff6f7]"
-                      >
-                        <span>Reglamento de equipaje</span>
-                        <span className="text-xs font-semibold uppercase tracking-[0.28em] text-[#c01e27] group-hover:translate-x-1 transition">Ver</span>
-                      </Link>
-                      <Link
-                        to="/nuestra-cooperativa/contrato-transporte-pasajeros"
-                        className="group flex items-center justify-between rounded-2xl border border-slate-200 px-4 py-3 text-sm font-semibold text-[#1c1f35] transition hover:border-[#c01e27] hover:bg-[#fff6f7]"
-                      >
-                        <span>Contrato de transporte de pasajeros</span>
-                        <span className="text-xs font-semibold uppercase tracking-[0.28em] text-[#c01e27] group-hover:translate-x-1 transition">Ver</span>
-                      </Link>
-                    </div>
-                  </section>
-                )}
               </div>
+            )}
+
+            {detail.id === "transporte-pasajeros" && (
+              <section className="rounded-3xl border border-slate-200/70 bg-white p-6 shadow-[0px_18px_45px_rgba(0,0,0,0.08)]">
+                <div className="mb-6">
+                  <p className="text-[0.68rem] font-semibold uppercase tracking-[0.38em] text-[#c01e27]">Documentos relacionados</p>
+                </div>
+
+                <div className="space-y-8">
+                  <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+                    <div>
+                      <h3 className="text-lg font-semibold text-[#1c1f35]">Contrato de transporte de pasajeros</h3>
+                      <p className="mt-1 text-sm text-slate-600">Consulta las condiciones legales del servicio de transporte.</p>
+                    </div>
+                    <Link
+                      to="/nuestra-cooperativa/contrato-transporte-pasajeros"
+                      className="inline-flex shrink-0 items-center justify-center rounded-full border border-[#c01e27] px-5 py-2 text-sm font-semibold uppercase tracking-[0.2em] text-[#c01e27] transition hover:bg-[#c01e27] hover:text-white"
+                    >
+                      Ver contrato
+                    </Link>
+                  </div>
+
+                  <div className="h-px w-full bg-slate-100" />
+
+                  <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+                    <div>
+                      <h3 className="text-lg font-semibold text-[#1c1f35]">Reglamento de equipaje</h3>
+                      <p className="mt-1 text-sm text-slate-600">Consulta las condiciones para el transporte de equipaje.</p>
+                    </div>
+                    <Link
+                      to="/nuestra-cooperativa/reglamento-de-equipaje"
+                      className="inline-flex shrink-0 items-center justify-center rounded-full border border-[#c01e27] px-5 py-2 text-sm font-semibold uppercase tracking-[0.2em] text-[#c01e27] transition hover:bg-[#c01e27] hover:text-white"
+                    >
+                      Ver reglamento
+                    </Link>
+                  </div>
+                </div>
+              </section>
             )}
           </div>
 

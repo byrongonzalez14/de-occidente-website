@@ -20,7 +20,7 @@ interface Feature {
 export const TravelWithUsSection = (): JSX.Element => {
   const features: Feature[] = [
     {
-      icon: "/img/wifi-vector-8.svg",
+      icon: "/img/general/wifi-vector.svg",
       iconAlt: "Wifi vector",
       title: "Conexión a Bordo (WiFi)",
       description: {
@@ -30,7 +30,7 @@ export const TravelWithUsSection = (): JSX.Element => {
       },
     },
     {
-      icon: "/img/vector-129.svg",
+      icon: "/img/general/silla-vector.svg",
       iconAlt: "Vector reclinable",
       title: "Máxima Comodidad",
       description: {
@@ -38,13 +38,9 @@ export const TravelWithUsSection = (): JSX.Element => {
         emphasis: "Sillas Reclinables",
         trailing: ".",
       },
-      overlayIcon: {
-        src: "/img/vector-128.svg",
-        alt: "Detalle de reclinación",
-      },
     },
     {
-      icon: "/img/vector-frio-8.svg",
+      icon: "/img/general/aire-vector.svg",
       iconAlt: "Vector frío",
       title: "Viaja Siempre Fresco",
       description: {
@@ -54,7 +50,7 @@ export const TravelWithUsSection = (): JSX.Element => {
       },
     },
     {
-      icon: "/img/vector-camara-8.svg",
+      icon: "/img/general/seguridad-vector.svg",
       iconAlt: "Vector cámara",
       title: "Viaja Seguro",
       description: {

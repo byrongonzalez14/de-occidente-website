@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { DestinationsSection } from "./sections/DestinationsSection";
 import { DisclaimerSection } from "../../components/DisclaimerSection";
 import { FooterSection } from "../../components/FooterSection";
@@ -12,11 +13,13 @@ export const Home = (): JSX.Element => {
       id: 1,
       alt: "Viaja con tu mascota",
       src: "/img/general/viaja-con-tu-mascota.png",
+      href: "/servicios/viaja-con-tu-mascota",
     },
     {
       id: 2,
       alt: "Envios",
       src: "/img/general/servicio-encomiendas.png",
+      href: "/servicios/encomiendas",
     },
   ];
 
@@ -34,13 +37,18 @@ export const Home = (): JSX.Element => {
         >
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
             {bannerImages.map((banner) => (
-              <img
+              <Link
                 key={banner.id}
-                className="h-52 w-full rounded-2xl object-cover"
-                alt={banner.alt}
-                src={banner.src}
-                loading="lazy"
-              />
+                to={banner.href}
+                className="group relative block overflow-hidden rounded-2xl transition hover:scale-[1.02]"
+              >
+                <img
+                  className="h-52 w-full object-cover transition group-hover:opacity-95"
+                  alt={banner.alt}
+                  src={banner.src}
+                  loading="lazy"
+                />
+              </Link>
             ))}
           </div>
         </section>

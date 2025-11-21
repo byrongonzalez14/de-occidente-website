@@ -47,6 +47,15 @@ export const DestinationsSection = (): JSX.Element => {
           </article>
         ))}
       </div>
+
+      <div className="flex justify-center">
+        <Link
+          to="/destinos"
+          className="inline-flex items-center justify-center rounded-full border-2 border-[#c01e27] px-6 py-3 text-sm font-semibold uppercase tracking-wide text-[#c01e27] transition hover:bg-[#c01e27] hover:text-white"
+        >
+          Ver más destinos
+        </Link>
+      </div>
     </section>
   );
 };

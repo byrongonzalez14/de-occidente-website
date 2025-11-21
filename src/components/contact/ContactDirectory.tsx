@@ -10,10 +10,9 @@ const officeTypeLabels: Record<ContactOfficeType, string> = {
   terminal: "Terminales",
   encomiendas: "Encomiendas",
   administrativo: "Administrativo",
-  aliado: "Aliados",
 };
 
-const typeOrder: ContactOfficeType[] = ["terminal", "encomiendas", "administrativo", "aliado"];
+const typeOrder: ContactOfficeType[] = ["terminal", "encomiendas", "administrativo"];
 
 const normalize = (value: string): string => value.normalize("NFD").replace(/\p{Diacritic}/gu, "").toLowerCase();
 
@@ -144,11 +143,10 @@ export const ContactDirectory = (): JSX.Element => {
                     key={type}
                     type="button"
                     onClick={() => toggleType(type)}
-                    className={`rounded-full border px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] transition ${
-                      isActive
+                    className={`rounded-full border px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] transition ${isActive
                         ? "border-[#c01e27] bg-[#c01e27] text-white hover:bg-[#a41822]"
                         : "border-slate-200 bg-white text-[#1c1f35] hover:border-[#c01e27]/60"
-                    }`}
+                      }`}
                   >
                     {officeTypeLabels[type]}
                   </button>
@@ -229,9 +227,8 @@ const DirectoryCard = ({ office, highlight = false }: { office: ContactOffice; h
 
   return (
     <article
-      className={`flex h-full flex-col justify-between rounded-3xl border p-5 text-left shadow-sm transition hover:-translate-y-0.5 hover:shadow-[0px_18px_45px_rgba(0,0,0,0.12)] ${
-        highlight ? "border-[#c01e27]/40 bg-[#fef3f4]" : "border-slate-200 bg-white"
-      }`}
+      className={`flex h-full flex-col justify-between rounded-3xl border p-5 text-left shadow-sm transition hover:-translate-y-0.5 hover:shadow-[0px_18px_45px_rgba(0,0,0,0.12)] ${highlight ? "border-[#c01e27]/40 bg-[#fef3f4]" : "border-slate-200 bg-white"
+        }`}
     >
       <header className="mb-4 space-y-2">
         <div className="flex items-center justify-between gap-3">

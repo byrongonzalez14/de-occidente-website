@@ -9,7 +9,7 @@ export type ContactQuickCard = {
   icon: "phone" | "whatsapp" | "mail" | "clock";
 };
 
-export type ContactOfficeType = "terminal" | "encomiendas" | "administrativo" | "aliado";
+export type ContactOfficeType = "terminal" | "encomiendas" | "administrativo";
 
 export type ContactOffice = {
   id: string;

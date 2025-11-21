@@ -4,7 +4,7 @@ import destinations from "../../../../data/featuredDestinations.json";
 
 export const DestinationsSection = (): JSX.Element => {
   return (
-    <section className="page-section flex flex-col gap-8 py-12" aria-labelledby="destinations-heading">
+    <section className="page-section flex flex-col gap-8 pb-6 pt-12" aria-labelledby="destinations-heading">
       <header className="space-y-2 text-center">
         <h2 id="destinations-heading" className="text-3xl font-semibold text-[#1c1f35]">
           Destinos populares

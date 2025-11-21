@@ -13,7 +13,7 @@ export const Services = (): JSX.Element => {
       <HeaderSection />
 
       <SectionHeroBanner
-        title="Servicios de De Occidente"
+        title="Servicios De Occidente"
         subtitle="Soluciones integrales para tus viajes, envíos y experiencias en carretera."
         backgroundImage="/img/general/banner-rojo.png"
         accentImage={{ src: "/img/general/o-logo.svg" }}

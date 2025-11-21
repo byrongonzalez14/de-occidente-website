@@ -169,7 +169,7 @@ export const contactOffices: ContactOffice[] = [
     name: "Obando",
     city: "Obando",
     type: "encomiendas",
-    address: "Cra. 5 # 4-26",
+    address: "Cra. 5 #34-26",
     phone: "+57 311 376 3332",
   },
   {
@@ -221,14 +221,14 @@ export const contactOffices: ContactOffice[] = [
     city: "Tuluá",
     type: "encomiendas",
     address: "Terminal de Transporte P1 Local 27",
-    phone: "+57 321 778 1505",
+    phone: "+57 321 778 1605",
   },
   {
     id: "zarzal",
     name: "Zarzal",
     city: "Zarzal",
     type: "encomiendas",
-    address: "Control de Transporte local 2 y 3",
-    phone: "+57 (602) 225 5227 / +57 321 779 0471",
+    address: "Terminal de Transporte Local 2 y 3",
+    phone: "+57 (602) 203 5207 / +57 321 779 0471",
   },
 ];
